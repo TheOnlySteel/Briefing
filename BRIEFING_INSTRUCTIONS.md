@@ -104,10 +104,9 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 5. **Derek Thompson** — `https://www.derekthompson.org/` (Substack) + X feed. Covers public health, demographics, structural trends. Slot his content into whichever section fits (#Health or #Business).
 
 ### Instructions:
-- Biotech: new treatments, longevity research, notable trial results.
-- Biohacking/optimization: new findings on supplements, training, sleep, anything with real data.
-- Public health: epidemiology, policy shifts, population-level significance.
-- **3–5 sentences total.** Say "Quiet day in health/biotech" if nothing notable.
+- **Scope:** Transhumanism, biohacking, longevity, and life-extension research only. This section covers the frontier of human enhancement — senolytics, rapamycin trials, gene therapy for aging, novel biomarkers, wearable breakthroughs with real data, supplement research with meaningful effect sizes, and protocol updates from credible self-experimenters (e.g., Bryan Johnson).
+- **Out of scope:** General pharma earnings, broad biotech layoffs, public health policy, epidemiology, cancer drug approvals (unless directly longevity-relevant), and anything that belongs in a conventional health news roundup. If it would run in a hospital newsletter, it probably doesn't belong here.
+- **3–5 sentences total.** If nothing noteworthy happened in the previous 24 hours, **omit the section entirely** — do not pad or include filler.
 
 ---
 
