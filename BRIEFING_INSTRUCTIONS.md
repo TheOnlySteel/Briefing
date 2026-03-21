@@ -6,16 +6,17 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 **Schedule:** Run daily via GitHub Actions cron at 5:30 AM Pacific.  
 **Output:** One dated HTML file + updated `feed.xml` at the site root.  
-**Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.  
+**Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.
+**Sources:** Link sources inline as hyperlinks within the text, similar to theZvi's style. The reader should be able to click through to the original source for any claim. Do not dump a list of URLs at the end — weave them into the prose naturally (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday").
 **Audience:** A curious, analytically minded generalist in the eastern Fraser Valley, BC.
 
 ---
 
 ## Section 1: Weather
 
-**Header:** `Weather — Chilliwack / Agassiz`
+**Header:** `Weather`
 
-**Data source:** Environment and Climate Change Canada via `https://weather.gc.ca/` — use exclusively. The nearest forecast location is Agassiz. Fetch the forecast page or the Datamart XML/CSV feeds for the region.  
+**Data source:** Environment and Climate Change Canada via `https://weather.gc.ca/` — use exclusively. The nearest forecast location is Agassiz. Fetch the forecast page or the Datamart XML/CSV feeds for the region.
 **Coordinates (for reference):** 49.24°N, –121.76°W (Agassiz station area)
 
 **Output:** A short natural-language paragraph (3–5 sentences). Include:
