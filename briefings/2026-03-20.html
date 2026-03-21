@@ -4,121 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Briefing — 2026-03-20</title>
-  <style>
-    :root {
-      --bg: #fdfaf6;
-      --fg: #1a1a1a;
-      --accent: #5a3e28;
-      --muted: #6b6b6b;
-      --border: #e0d8ce;
-      --section-bg: #fff;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: Georgia, 'Times New Roman', serif;
-      background: var(--bg);
-      color: var(--fg);
-      line-height: 1.7;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem;
-    }
-    header {
-      border-bottom: 2px solid var(--accent);
-      padding-bottom: 1rem;
-      margin-bottom: 2rem;
-    }
-    header h1 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--accent);
-    }
-    header .date {
-      font-size: 0.95rem;
-      color: var(--muted);
-      margin-top: 0.25rem;
-    }
-    section {
-      margin-bottom: 2.25rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-    section:last-of-type { border-bottom: none; }
-    h2 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 0.75rem;
-      color: var(--accent);
-    }
-    h3 {
-      font-size: 1.05rem;
-      font-weight: 600;
-      margin-top: 1rem;
-      margin-bottom: 0.4rem;
-      color: var(--fg);
-    }
-    p { margin-bottom: 0.75rem; }
-    .psalm-text {
-      background: var(--section-bg);
-      border-left: 3px solid var(--accent);
-      padding: 1rem 1.25rem;
-      margin: 0.75rem 0;
-      font-style: italic;
-      line-height: 1.8;
-    }
-    .psalm-text .verse-num {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 0.75rem;
-      color: var(--accent);
-      vertical-align: super;
-      margin-right: 2px;
-    }
-    .copyright {
-      font-size: 0.8rem;
-      color: var(--muted);
-      font-style: italic;
-      margin-top: 0.5rem;
-    }
-    .sep-link {
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-    .sep-link a { color: var(--accent); }
-    footer {
-      margin-top: 2.5rem;
-      padding-top: 1rem;
-      border-top: 2px solid var(--accent);
-      font-size: 0.85rem;
-      color: var(--muted);
-      text-align: center;
-    }
-    a { color: var(--accent); }
-    @media (max-width: 600px) {
-      body { padding: 1rem; }
-      header h1 { font-size: 1.3rem; }
-      h2 { font-size: 1.1rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <header>
   <h1>Daily Briefing</h1>
   <div class="date">Friday, March 20, 2026</div>
+  <hr class="header-rule">
 </header>
 
-<!-- SECTION 1: WEATHER -->
 <section>
-  <h2>☀️ Weather — Chilliwack / Agassiz</h2>
+  <h2>Weather — Chilliwack / Agassiz</h2>
   <p>
     An atmospheric river has parked itself over the Fraser Valley and it's not going anywhere fast. Environment Canada has issued an orange rainfall warning: expect 100–120 mm of rain through the event, with heavier totals near the mountains. Today sits at a high of 13°C and a low of 5°C — mild for late March, but you won't see the sun. Winds gusting to 53 km/h will make the rain feel more aggressive than the thermometer suggests. Trails will be saturated; expect mud, standing water, and elevated river levels. If you're on the Coquihalla, a separate yellow rainfall warning is in effect with 50–80 mm expected. The weekend looks only slightly drier — showers persist through Saturday before a partial clearing Sunday, with temperatures holding steady in the 10–13°C range.
   </p>
 </section>
 
-<!-- SECTION 2: TECH -->
+<hr class="section-rule">
+
 <section>
-  <h2>💻 #Tech</h2>
+  <h2>Tech</h2>
 
   <h3>AI / Claude</h3>
   <p>
@@ -141,17 +47,19 @@
   </p>
 </section>
 
-<!-- SECTION 3: HEALTH -->
+<hr class="section-rule">
+
 <section>
-  <h2>🧬 #Health</h2>
+  <h2>Health</h2>
   <p>
     A biotech firm is using Apple Watch data in a clinical trial for a Parkinson's drug — a concrete example of wearables moving from consumer fitness into regulatory-grade endpoints. New American cardiology guidelines now recommend cholesterol screening and treatment starting as early as age 30, shifting heart disease prevention significantly earlier in the lifecycle. On the policy side, two more drugmakers have joined TrumpRx, while ALS advocates are warning that federal funding cuts could stall research timelines. Device manufacturers continue to report years-long waits for Medicare coverage even after FDA approval — a structural bottleneck worth watching.
   </p>
 </section>
 
-<!-- SECTION 4: BUSINESS -->
+<hr class="section-rule">
+
 <section>
-  <h2>📈 #Business</h2>
+  <h2>Business</h2>
 
   <h3>Markets</h3>
   <p>
@@ -169,9 +77,10 @@
   </p>
 </section>
 
-<!-- SECTION 5: PSALM -->
+<hr class="section-rule">
+
 <section>
-  <h2>📖 Psalm of the Day — Psalm 2</h2>
+  <h2>Psalm of the Day — Psalm 2</h2>
   <h3>The Reign of the Lord's Anointed</h3>
 
   <div class="psalm-text">
@@ -229,9 +138,10 @@
   </p>
 </section>
 
-<!-- SECTION 6: SEP -->
+<hr class="section-rule">
+
 <section>
-  <h2>🏛️ SEP — Formal Epistemology</h2>
+  <h2>SEP — Formal Epistemology</h2>
   <p class="sep-link">
     <a href="https://plato.stanford.edu/entries/formal-epistemology/">plato.stanford.edu/entries/formal-epistemology/</a>
   </p>
@@ -243,17 +153,18 @@
   </p>
 </section>
 
-<!-- SECTION 7: BIAS -->
+<hr class="section-rule">
+
 <section>
-  <h2>🧠 Cognitive Bias of the Day: Anchoring Bias</h2>
+  <h2>Cognitive Bias — Anchoring</h2>
   <p>
     Anchoring bias is the tendency to rely too heavily on the first piece of information you encounter when making a decision — even when that information is arbitrary or irrelevant. You walk into a salary negotiation and the first number on the table — theirs or yours — warps every subsequent counteroffer, regardless of what the role is actually worth. Kahneman and Tversky demonstrated this by spinning a rigged wheel of fortune before asking subjects to estimate the percentage of African nations in the United Nations; the random number on the wheel reliably dragged estimates toward it. The bias is pernicious precisely because it operates below conscious awareness — you believe you're adjusting away from the anchor, but the adjustment is almost always insufficient. The corrective: generate your own anchor before you see anyone else's. Do the analysis first, write down your number, and then engage. As Munger would put it, the person who names the first number in a negotiation isn't being rude — they're being strategic, and you should be too.
   </p>
 </section>
 
 <footer>
-  <p>Daily Briefing — Generated 2026-03-20 05:30 AM Pacific</p>
-  <p><a href="../index.html">← All Briefings</a> · <a href="../feed.xml">RSS Feed</a></p>
+  <p>Generated 2026-03-20, 05:30 AM Pacific</p>
+  <p><a href="/">All Briefings</a> · <a href="/feed.xml">RSS</a></p>
 </footer>
 
 </body>
