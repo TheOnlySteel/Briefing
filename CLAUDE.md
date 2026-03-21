@@ -4,8 +4,7 @@
 
 Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy to Netlify via git push. The briefing is designed to be read via RSS and should be self-contained, well-formatted, and concise.
 
-**Schedule:** Run daily via GitHub Actions cron at 5:30 AM Pacific.  
-**Output:** One dated HTML file + updated `feed.xml` at the site root.  
+**Output:** One dated HTML file + updated `feed.xml` at the site root.
 **Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.
 **Sources:** Every factual claim in every news section (Tech, Health, Business) **must** include an inline hyperlink to its source, without exception. No unlinked claims. Weave links into the prose naturally, similar to theZvi's style (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday"). Do not dump a list of URLs at the end. If you cannot find a credible source for a claim, do not include the claim.
 **Audience:** A curious, analytically minded generalist in the eastern Fraser Valley, BC.
