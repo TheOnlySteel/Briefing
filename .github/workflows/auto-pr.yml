@@ -22,7 +22,7 @@ jobs:
             gh pr create \
               --repo "$GITHUB_REPOSITORY" \
               --head "$GITHUB_REF_NAME" \
-              --base master \
+              --base main \
               --title "$GITHUB_REF_NAME" \
               --body "Auto-created from branch \`$GITHUB_REF_NAME\`."
           else
