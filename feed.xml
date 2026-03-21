@@ -4,8 +4,51 @@
     <title>Daily Briefing</title>
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
-    <lastBuildDate>Fri, 20 Mar 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 12:30:00 +0000</lastBuildDate>
     <atom:link href="https://steelpersonalbriefing.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily Briefing — 2026-03-21</title>
+      <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-21.html</link>
+      <pubDate>Sat, 21 Mar 2026 12:30:00 +0000</pubDate>
+      <guid>https://steelpersonalbriefing.netlify.app/briefings/2026-03-21.html</guid>
+      <description><![CDATA[
+<h2>Weather</h2>
+<p>The atmospheric river has finally moved on, leaving the Fraser Valley waterlogged but drying. <a href="https://weather.gc.ca/en/location/index.html?coords=49.233,-121.767">Environment Canada</a> is calling for a high near 9°C today with a 40% chance of scattered post-frontal showers. Freezing levels dropping to 500–1,000 metres; overnight low could touch 0°C — first frost risk this week. Sunday will be the cold one, high only 6°C, low near –1°C. Monday warms to 9°C but rain returns. Trails saturated and river levels elevated through the weekend.</p>
+
+<h2>Tech</h2>
+
+<h3>Competitors</h3>
+<p><a href="https://openai.com/index/openai-to-acquire-astral/">OpenAI announced it is acquiring Astral</a>, the company behind uv (package manager), Ruff (linter), and ty (type checker). The Astral team will join Codex, now claiming more than two million users. OpenAI says it will continue supporting the open-source projects, but the community is anxious: uv had 126 million PyPI downloads last month. Deal not yet closed.</p>
+
+<h3>Apple</h3>
+<p>Apple <a href="https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/">introduced AirPods Max 2</a> with H2 chip, 1.5× better ANC, Live Translation, and Camera Remote via Digital Crown. Same $549; <a href="https://9to5mac.com/2026/03/21/top-stories-airpods-max-2-ios-26-4-rc-and-more/">pre-orders March 25</a>. <a href="https://www.macrumors.com/2026/03/20/ios-26-4-top-10-features/">iOS 26.4 RC</a> features Apple Music Concerts, AI Playlist Playground, eight new emoji, RCS encryption testing, Stolen Device Detection on by default. Public release expected next week.</p>
+
+<h2>Business</h2>
+
+<h3>Markets</h3>
+<p>Weekend summary. The story is the speed at which rate expectations have inverted. VIX jumped 11% to 26.78. <a href="https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-accelerate-losses-as-oil-swings-amid-iran-war-jitters-193849741.html">Treasury yields surged 12–15 bps Friday</a> after reports of <a href="https://www.bnnbloomberg.ca/markets/2026/03/20/us-stocks-sink-on-fears-the-war-with-iran-will-keep-interest-rates-high/">three more warships deploying to the Gulf</a>. 10-year at 4.38%, up 41 bps since the war began.</p>
+
+<h3>Canada Macro</h3>
+<p><a href="https://www.bnnbloomberg.ca/business/2026/03/20/money-markets-raise-bank-of-canada-2026-rate-hike-bets-by-75-basis-points/">Money markets now pricing 75 bps of BoC rate hikes by year-end</a>, with >20% chance of a hike at April 29. <a href="https://www.bnnbloomberg.ca/business/2026/03/20/money-markets-raise-bank-of-canada-2026-rate-hike-bets-by-75-basis-points/">Economists warn</a> hiking into weakness could compound household pain. CAD flat at 72.81 cents US.</p>
+
+<h3>US Macro</h3>
+<p>Bond traders assign a <a href="https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html">50% probability of a Fed rate hike by October</a>. <a href="https://www.bnnbloomberg.ca/markets/2026/03/20/us-stocks-sink-on-fears-the-war-with-iran-will-keep-interest-rates-high/">Money markets see no chance of any cut in 2026</a>. Three weeks ago, two cuts were fully priced in; the oil shock has rewritten the rate trajectory.</p>
+
+<h2>Psalm of the Day — Psalm 2</h2>
+<p><em><sup>1</sup>Why do the nations rage and the peoples plot in vain? <sup>2</sup>The kings of the earth set themselves, and the rulers take counsel together, against the LORD and against his Anointed, saying, <sup>3</sup>"Let us burst their bonds apart and cast away their cords from us." <sup>4</sup>He who sits in the heavens laughs; the Lord holds them in derision. <sup>5</sup>Then he will speak to them in his wrath, and terrify them in his fury, saying, <sup>6</sup>"As for me, I have set my King on Zion, my holy hill." <sup>7</sup>I will tell of the decree: The LORD said to me, "You are my Son; today I have begotten you. <sup>8</sup>Ask of me, and I will make the nations your heritage, and the ends of the earth your possession. <sup>9</sup>You shall break them with a rod of iron and dash them in pieces like a potter's vessel." <sup>10</sup>Now therefore, O kings, be wise; be warned, O rulers of the earth. <sup>11</sup>Serve the LORD with fear, and rejoice with trembling. <sup>12</sup>Kiss the Son, lest he be angry, and you perish in the way, for his wrath is quickly kindled. Blessed are all who take refuge in him.</em></p>
+<p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
+
+<h3>Exegesis</h3>
+<p>Psalm 2 is a royal psalm — almost certainly composed for the enthronement of a Davidic king. The four stanzas progress through four voices: the narrator's incredulous question (vv. 1–3), YHWH's derisive response from heaven (vv. 4–6), the king's recitation of the divine decree (vv. 7–9), and a wisdom teacher's admonition (vv. 10–12). The decree formula — "You are my Son; today I have begotten you" — employs ANE adoption language: the king becomes YHWH's son by covenantal appointment, not ontological generation. The verb <em>rāʿaʿ</em> in v. 9 admits an ambiguity: "break" or "shepherd," which the LXX exploited. The closing <em>ʾašrê</em> forms an inclusio with Psalm 1:1, binding both psalms as a single prologue to the Psalter.</p>
+
+<h2>SEP — Underdetermination of Scientific Theory</h2>
+<p><a href="https://plato.stanford.edu/entries/scientific-underdetermination/">plato.stanford.edu/entries/scientific-underdetermination/</a></p>
+<p>The underdetermination thesis holds that evidence may be insufficient to determine which of several rival theories is correct. Holist underdetermination (Duhem-Quine) says hypotheses are never tested in isolation. Contrastive underdetermination claims empirically equivalent rivals can always be constructed. Laudan and Leplin argue genuine empirical equivalence is transient. The debate cuts to the heart of scientific realism. The insight generalizes: in any domain, data rarely compel a single conclusion, and tie-breaking criteria may be pragmatic rather than truth-tracking.</p>
+
+<h2>Cognitive Bias — Availability Heuristic</h2>
+<p>The availability heuristic is your tendency to judge probability by how easily examples come to mind — not by actual frequency. Kahneman and Tversky showed people believe more words start with "r" than have "r" third — because starting letters are easier to retrieve. The corrective: consult the base rate before trusting your gut.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Daily Briefing — 2026-03-20</title>
       <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-20.html</link>

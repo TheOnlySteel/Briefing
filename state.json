@@ -1,15 +1,17 @@
 {
   "scripture": {
     "book": "Psalm",
-    "current_chapter": 2,
+    "current_chapter": 3,
     "total_chapters": 150,
     "cycle_complete": false
   },
   "sep_entries_used": [
-    "https://plato.stanford.edu/entries/formal-epistemology/"
+    "https://plato.stanford.edu/entries/formal-epistemology/",
+    "https://plato.stanford.edu/entries/scientific-underdetermination/"
   ],
   "bias_entries_used": [
-    "Anchoring"
+    "Anchoring",
+    "Availability Heuristic"
   ],
   "recent_stories": [
     { "date": "2026-03-20", "key": "fvrd-state-of-emergency-atmospheric-river", "headline": "FVRD declares state of emergency, 40 homes under evacuation alert" },
@@ -29,7 +31,12 @@
     { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline-brent-120", "headline": "S&P 500 fourth weekly decline, Brent topped $120" },
     { "date": "2026-03-20", "key": "planet-labs-q4-breakeven-surge", "headline": "Planet Labs surged 26% on breakeven Q4 and 41% revenue growth" },
     { "date": "2026-03-20", "key": "boc-hold-2.25-march", "headline": "Bank of Canada holds at 2.25%, warns Iran war will boost inflation" },
-    { "date": "2026-03-20", "key": "fed-hold-3.50-3.75-march", "headline": "Fed holds 3.50-3.75%, 92K jobs cut in Feb, PCE raised to 2.7%" }
+    { "date": "2026-03-20", "key": "fed-hold-3.50-3.75-march", "headline": "Fed holds 3.50-3.75%, 92K jobs cut in Feb, PCE raised to 2.7%" },
+    { "date": "2026-03-21", "key": "openai-acquires-astral", "headline": "OpenAI acquiring Astral (uv, Ruff, ty) for Codex integration" },
+    { "date": "2026-03-21", "key": "airpods-max-2-announced", "headline": "AirPods Max 2 with H2 chip, pre-orders March 25" },
+    { "date": "2026-03-21", "key": "ios-26-4-rc-features", "headline": "iOS 26.4 RC: Apple Music Concerts, Playlist Playground, 8 new emoji" },
+    { "date": "2026-03-21", "key": "rate-hike-bets-surge-post-war", "headline": "Bond traders price 50% chance of Fed hike by October, no 2026 cuts" },
+    { "date": "2026-03-21", "key": "boc-rate-hike-bets-75bp", "headline": "Money markets price 75 bps of BoC hikes by year-end" }
   ],
-  "last_run_date": "2026-03-20"
+  "last_run_date": "2026-03-21"
 }
