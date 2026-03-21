@@ -34,23 +34,56 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 **Header:** `💻 #Tech`
 
-**Subsections:** AI / Claude → Competitors → Apple → General Interest
+**Subsections:** Claude Code → Cowork → Claude Platform / Models → Competitors → Apple → General Interest
 
 ### Sources (fetch in order of priority):
-1. **Anthropic team members on X** — the ground-level sources where feature news breaks first. Key accounts: `@noahzweben` (Claude Code), `@felixrieseberg` (Claude Code), `@alexalbert__` (Claude product). Check these before the corporate channels.
-2. **Anthropic blog / changelog** — `https://www.anthropic.com/news` and `https://www.anthropic.com/engineering` — for official announcements, model releases, and policy updates.
-3. **OpenAI blog** — `https://openai.com/blog`
-4. **Google DeepMind / Gemini blog** — `https://blog.google/technology/ai/`
-5. **MacRumors** — `https://www.macrumors.com/` (Apple breaking news)
-6. **MacStories** — `https://www.macstories.net/` (Apple depth/reviews)
-7. **Six Colors** — `https://sixcolors.com/` (Jason Snell, concise Apple commentary)
-8. **Ars Technica** — `https://arstechnica.com/`
-9. **The Verge** — `https://www.theverge.com/`
-10. **Stratechery** — `https://stratechery.com/` (Ben Thompson, framework analysis)
-11. **Hacker News front page** — `https://news.ycombinator.com/` (signal filter for what technical community cares about)
+1. **Anthropic employee X accounts** — ground-level sources where feature news breaks first, often days before official announcements. Check these before corporate channels:
+   - `@bcherny` — Boris Cherny, Claude Code lead. Ships features, announces Claude Code releases and changelogs.
+   - `@noahzweben` — Noah Zweben, Claude Code team. Feature drops, UX changes, integration updates.
+   - `@felixrieseberg` — Felix Rieseberg, Claude Code / Cowork / Claude Code Desktop. Key source for Cowork features, Dispatch, and the code-to-knowledge-work crossover.
+   - `@alexalbert__` — Alex Albert, Claude product. Model launches, product direction, system prompt updates.
+   - `@trq212` — Claude Code team. Changelog and version updates.
+2. **Anthropic blog / changelog** — `https://www.anthropic.com/news`, `https://www.anthropic.com/engineering`, and `https://claude.com/blog` — for official announcements, model releases, and policy updates.
+3. **Claude Code release notes** — `https://support.claude.com/en/articles/12138966-release-notes` — the official changelog. Cross-reference with employee X posts for context on what shipped.
+4. **OpenAI blog** — `https://openai.com/blog`
+5. **Google DeepMind / Gemini blog** — `https://blog.google/technology/ai/`
+6. **MacRumors** — `https://www.macrumors.com/` (Apple breaking news)
+7. **MacStories** — `https://www.macstories.net/` (Apple depth/reviews)
+8. **Six Colors** — `https://sixcolors.com/` (Jason Snell, concise Apple commentary)
+9. **Ars Technica** — `https://arstechnica.com/`
+10. **The Verge** — `https://www.theverge.com/`
+11. **Stratechery** — `https://stratechery.com/` (Ben Thompson, framework analysis)
+12. **Hacker News front page** — `https://news.ycombinator.com/` (signal filter for what technical community cares about)
 
 ### Instructions:
-- Lead with Claude/Anthropic updates. Even minor feature drops are worth noting.
+
+**CRITICAL: All content must be from the previous 24 hours only.** These subsection guides tell you *what to look for* — they are not a prompt to recap the month. If nothing shipped yesterday in Claude Code, omit the subsection. The examples below (voice mode, Dispatch, etc.) are illustrative of the *kinds* of things to watch for, not items to report on unless they happened in the last day.
+
+**Claude Code** — Track as its own subsection. Cover:
+- New CLI features (voice mode, /loop, hooks, skills, plugins, auto mode)
+- Agent teams and sub-agent orchestration (parallel agents, SendMessage coordination)
+- IDE integrations (VS Code, JetBrains), GitHub Actions integration
+- Plugin marketplace and community ecosystem
+- Version bumps and changelog highlights (e.g., 2.0 → 2.1 was significant)
+- Model defaults and token limit changes (e.g., Opus 4.6 default, 64k/128k output limits)
+- Even small feature drops (accept-with-changes, effort controls, context compaction) are worth a sentence.
+
+**Cowork** — Track as its own subsection. Cover:
+- Desktop agent features (local file access, sub-agent coordination, long-running tasks)
+- Dispatch (remote control from phone — when it ships or updates)
+- Connectors and plugins (Google Drive, Gmail, DocuSign, FactSet, etc.)
+- Folder/global instructions, skills, and customization
+- Windows parity milestones
+- Enterprise features (audit logs, compliance, Team/Enterprise plan updates)
+- Pricing and plan tier changes
+
+**Claude Platform / Models** — Cover:
+- New model releases (Opus, Sonnet, Haiku) and benchmark results
+- Context window changes (e.g., 1M token GA)
+- API changes, Agent SDK updates, Skills API
+- Memory features, usage limit changes, free plan updates
+- Policy and safety news (e.g., Pentagon refusal, government contracts)
+
 - For OpenAI and Google, only include genuinely notable releases or capability shifts. Not every blog post is news.
 - Apple: product launches, OS updates, reviews of new hardware. When reviews are available for a new product, synthesize the consensus.
 - General interest: filtered for a technically literate reader who cares about infrastructure, open source, semiconductors, and genuine capability shifts. Not crypto unless structurally significant.
