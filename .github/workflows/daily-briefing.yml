@@ -1,0 +1,36 @@
+name: Daily Briefing
+
+on:
+  schedule:
+    # 5:30 AM Pacific (12:30 UTC during PDT, 13:30 UTC during PST)
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Generate briefing
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          if [ -n "$DATE" ]; then
+            ./generate.sh "$DATE"
+          else
+            ./generate.sh
+          fi
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

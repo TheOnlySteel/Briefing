@@ -11,5 +11,21 @@
   "bias_entries_used": [
     "Confirmation Bias"
   ],
+  "recent_stories": [
+    { "date": "2026-03-20", "key": "fraser-valley-atmospheric-river-flood", "headline": "Atmospheric river triggers Chilliwack state of emergency" },
+    { "date": "2026-03-20", "key": "claude-code-v2.1.81", "headline": "Claude Code v2.1.81 ships --bare flag" },
+    { "date": "2026-03-20", "key": "claude-code-v2.1.80-plugins", "headline": "Claude Code v2.1.80 inline plugin declarations and /loop" },
+    { "date": "2026-03-20", "key": "microsoft-copilot-cowork-launch", "headline": "Microsoft Copilot Cowork launches powered by Claude" },
+    { "date": "2026-03-20", "key": "anthropic-cowork-desktop-updates", "headline": "Anthropic Cowork: scheduled tasks, Customize, Dispatch" },
+    { "date": "2026-03-20", "key": "anthropic-global-ai-attitudes-survey", "headline": "Anthropic survey of 81K people on AI attitudes" },
+    { "date": "2026-03-20", "key": "doj-anthropic-pentagon-injunction", "headline": "DOJ urges court to reject Anthropic Pentagon injunction" },
+    { "date": "2026-03-20", "key": "openai-ipo-exploration", "headline": "OpenAI surpasses $25B annualized revenue, exploring IPO" },
+    { "date": "2026-03-20", "key": "gpt-5.4-launch", "headline": "GPT-5.4 launches with 1.05M token context" },
+    { "date": "2026-03-20", "key": "apple-march-product-week-reviews", "headline": "Apple March product week reviews consolidating" },
+    { "date": "2026-03-20", "key": "hn-starlink-flights-cve-snap", "headline": "HN: Starlink flight checker, Snap CVE-2026-3888" },
+    { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline", "headline": "S&P 500 fourth consecutive weekly decline, Brent $112" },
+    { "date": "2026-03-20", "key": "boc-rate-hold-march-2.25", "headline": "Bank of Canada holds at 2.25%, third consecutive hold" },
+    { "date": "2026-03-20", "key": "fed-hold-march-3.50-3.75", "headline": "Fed holds at 3.50-3.75%, Warsh nominated" }
+  ],
   "last_run_date": "2026-03-20"
 }
