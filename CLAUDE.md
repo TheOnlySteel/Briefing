@@ -17,8 +17,8 @@ Only fetch from and link to the following domains. Do not use sources outside th
 |---------|---------|
 | Weather | `weather.gc.ca` |
 | Tech | `code.claude.com`, `support.claude.com`, `anthropic.com`, `claude.com`, `x.com`, `openai.com`, `blog.google`, `macrumors.com`, `macstories.net`, `9to5mac.com`, `apple.com`, `arstechnica.com`, `theverge.com`, `stratechery.com`, `github.com` |
-| Health | `statnews.com`, `nature.com`, `examine.com` |
-| Business | `bankofcanada.ca`, `scotiabank.com`, `fred.stlouisfed.org`, `federalreserve.gov`, `bnnbloomberg.ca`, `ft.com`, `finance.yahoo.com` |
+| Health | `statnews.com`, `nature.com`, `examine.com`, `substack.com`, `x.com` |
+| Business | `bankofcanada.ca`, `scotiabank.com`, `fred.stlouisfed.org`, `federalreserve.gov`, `bnnbloomberg.ca`, `ft.com`, `finance.yahoo.com`, `substack.com`, `x.com` |
 | Psalm | `api.esv.org` |
 | SEP | `plato.stanford.edu` |
 | General news | `cbc.ca`, `reuters.com`, `bloomberg.com`, `axios.com`, `join1440.com` |
