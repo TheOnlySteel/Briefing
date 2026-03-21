@@ -4,50 +4,50 @@
     <title>Daily Briefing</title>
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 21 Mar 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 12:30:00 +0000</lastBuildDate>
     <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Daily Briefing — 2026-03-21</title>
-      <link>https://example.com/briefings/2026-03-21.html</link>
-      <pubDate>Sat, 21 Mar 2026 12:30:00 +0000</pubDate>
-      <guid>https://example.com/briefings/2026-03-21.html</guid>
+      <title>Daily Briefing — 2026-03-20</title>
+      <link>https://example.com/briefings/2026-03-20.html</link>
+      <pubDate>Fri, 20 Mar 2026 12:30:00 +0000</pubDate>
+      <guid>https://example.com/briefings/2026-03-20.html</guid>
       <description><![CDATA[
-<h2>Weather — Chilliwack / Agassiz</h2>
-<p>The atmospheric river is finally loosening its grip, but the damage is done. A rainfall warning remains in effect for the Fraser Valley after 100–120 mm fell this week, and Chilliwack has declared a local state of emergency with the Chilliwack River approaching its expected crest — roughly 40 homes are under evacuation alert, though dikes are holding. Today brings a high of 10°C with a 40% chance of showers, overnight low of 5°C. Sunday is similar — 9°C, scattered showers, overnight low dipping to 2°C. Monday climbs to 11°C under cloud before rain returns Tuesday through midweek. Trails remain saturated; expect standing water and elevated river levels through the weekend.</p>
+<h2>Weather</h2>
+<p>The atmospheric river that parked over the Fraser Valley this week is finally easing, but not before dumping 100–120 mm of rain and triggering a <a href="https://abbynews.com/2026/03/20/rainfall-warning-remains-in-place-for-fraser-valley-as-heavy-rain-continues/">local state of emergency in Chilliwack</a>. The Chilliwack River is approaching its expected crest, roughly 40 homes are under evacuation alert, and dikes are holding. <a href="https://weather.gc.ca/en/location/index.html?coords=49.158,-121.951">Environment Canada</a> has today at 10°C with a 40% chance of showers. Saturday similar at 9°C. Sunday climbs to 11°C before rain returns early next week. Trails saturated; BC River Forecast Centre has issued a Flood Watch.</p>
 
 <h2>Tech</h2>
 
 <h3>Claude Code</h3>
-<p>Claude Code hit v2.1.81 yesterday with the <code>--bare</code> flag for scripted <code>-p</code> calls — it skips hooks, LSP, and plugin sync, useful for CI pipelines. Earlier this week: v2.1.80 added inline plugin declarations in settings.json, CLI tool-usage detection for plugin tips, and effort frontmatter support for skills. The /loop command now handles recurring prompts at set intervals for unsupervised test cycles. Agent Teams remain in research preview. Voice mode added 10 new languages this month, bringing the total to 20.</p>
+<p><a href="https://github.com/anthropics/claude-code/releases">Claude Code v2.1.81</a> shipped with a <code>--bare</code> flag for scripted calls that skips hooks, LSP, and plugin sync. v2.1.80 introduced inline plugin declarations in settings.json, CLI tool-usage detection for plugin tips, and effort frontmatter support for skills. The /loop command now handles recurring prompts at set intervals. Agent Teams remain in research preview. Voice mode added 10 new languages this month.</p>
 
 <h3>Cowork</h3>
-<p>Microsoft Copilot Cowork launched March 10, powered by Claude, for multi-step tasks across M365. Anthropic's own Cowork now supports scheduled and recurring tasks, with a new Customize section grouping skills, plugins, and connectors. Dispatch — remote control from mobile — is live. Windows parity continues to improve since February launch.</p>
+<p><a href="https://winbuzzer.com/2026/03/10/microsoft-copilot-cowork-anthropic-claude-m365-agent-xcxwbn/">Microsoft Copilot Cowork launched March 10</a>, powered by Claude, for multi-step tasks across M365. <a href="https://claude.com/blog/cowork-research-preview">Anthropic's Cowork</a> now supports scheduled tasks and a new Customize section. Dispatch — remote control from phone — is live.</p>
 
 <h3>Claude Platform</h3>
-<p>Anthropic published a survey of ~81,000 people across 159 countries on AI attitudes — Sub-Saharan Africa and Asia are significantly more optimistic about AI than Western Europe and North America. The DOJ urged a federal court to reject Anthropic's preliminary injunction against the Pentagon's supply-chain risk designation.</p>
+<p>Anthropic published <a href="https://www.cnbc.com/2026/03/20/anthropic-whos-most-optimistic-about-ai-and-who-isnt.html">a survey of ~81,000 people across 159 countries</a> on AI attitudes. Sub-Saharan Africa and Asia are more optimistic; independent workers reported 3× the economic empowerment from AI versus salaried employees. <a href="https://thehill.com/policy/technology/5790299-trump-administration-pentagon-anthropic-lawsuit/">The DOJ urged a federal court to reject Anthropic's preliminary injunction</a> against the Pentagon's supply-chain risk designation.</p>
 
 <h3>Competitors</h3>
-<p>OpenAI has surpassed $25B in annualized revenue and is reportedly exploring a public listing as soon as late 2026. GPT-5.4 launched this month with a 1.05M token context window. The gap between frontier models is described as "increasingly marginal" on practical tasks. MCP is becoming the industry standard; OpenAI, Microsoft, and Google have all adopted it.</p>
+<p>OpenAI has <a href="https://www.pymnts.com/artificial-intelligence-2/2026/openai-and-google-refine-early-ai-commerce-strategies/">surpassed $25B in annualized revenue</a> and is exploring a public listing. GPT-5.4 launched with a 1.05M token context window. The gap between frontier models continues to narrow. MCP is becoming the industry standard — OpenAI, Microsoft, and Google have adopted it.</p>
 
 <h3>Apple</h3>
-<p>Reviews consolidating around the MacBook Air M5 as the standout value from Apple's March product week. The MacBook Neo ($599) is drawing attention as a Chromebook killer. iPhone 17e reviews are mixed on C1X modem real-world performance. Rumour: iPhone Fold in development; iOS 27 to focus on stability.</p>
+<p>Reviews consolidating from <a href="https://www.macrumors.com/2026/03/04/apple-march-2026-product-releases/">Apple's March product week</a>. MacBook Air M5 is the standout value. <a href="https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/">MacBook Neo</a> ($599) drawing attention as a Chromebook killer. <a href="https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/">iPhone 17e</a> reviews mixed on C1X modem. Rumour: iPhone Fold in development; iOS 27 to focus on stability.</p>
 
 <h3>General Interest</h3>
-<p>Hacker News: "Show HN: Will my flight have Starlink?" (350 points). CVE-2026-3888 Snap privilege escalation to root (148 comments). North Korean fake IT workers netting $500M/year. UK government backtracking on AI and copyright after artist outcry.</p>
+<p>Hacker News: "Show HN: Will my flight have Starlink?" (350 points). CVE-2026-3888 Snap privilege escalation to root. North Korean fake IT workers netting $500M/year. UK backtracking on AI copyright after artist outcry.</p>
 
 <h2>Health</h2>
-<p>AACR 2026 underway in San Diego. J&amp;J's Icotyde cleared as first oral peptide blocking IL-23, projected to top $5B in sales. BioCryst got FDA approval for oral ORLADEYO for children. Biotech layoffs accelerating: Gossamer Bio cutting 48%, Theravance shutting down R&amp;D, Evotec cutting 800. Biopharma venture funding running behind 2025 pace.</p>
+<p><a href="https://www.aacr.org/">AACR 2026</a> underway in San Diego. <a href="https://www.globenewswire.com/news-release/2026/03/18/3258381/0/en/Biotech-Breakthroughs-and-Strategic-Pivots-Fuel-Market-Momentum.html">J&amp;J's Icotyde cleared</a> as first oral IL-23 blocker, projected $5B+ in sales. BioCryst got FDA approval for oral ORLADEYO for children. <a href="https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026">Biotech layoffs accelerating</a>: Gossamer Bio -48%, Theravance shutting R&amp;D, Evotec -800. Biopharma VC funding at $2.7B vs $3.8B same point last year.</p>
 
 <h2>Business</h2>
 
 <h3>Markets</h3>
-<p>Fourth consecutive weekly decline. S&amp;P 500 closed at 5,606, down 1.51%. Nasdaq fell 2.01%. Russell 2000 in correction territory. Brent topped $112/bbl after Iraq declared force majeure and drones struck Kuwaiti refineries.</p>
+<p>Fourth consecutive weekly decline. <a href="https://finance.yahoo.com/markets/stocks/articles/stock-market-today-march-20-212631719.html">S&amp;P 500 at 5,606</a>, down 1.51%. Nasdaq fell 2.01%. Russell 2000 in correction territory. Brent topped $112/bbl after Iraq force majeure and Kuwaiti refinery drone strikes. Planet Labs surged 26% on breakeven Q4.</p>
 
 <h3>Canada Macro</h3>
-<p>Bank of Canada held at 2.25%. CPI eased to 1.8% in February. Unemployment at 6.7%. Markets now pricing in a possible rate hike by year-end. Next decision: April 29.</p>
+<p><a href="https://www.bankofcanada.ca/2026/03/fad-press-release-2026-03-18/">Bank of Canada held at 2.25%</a>. <a href="https://www.cbc.ca/news/business/bank-of-canada-interest-rate-9.7132984">CPI eased to 1.8%</a> but oil-driven gasoline spikes expected. Unemployment at 6.7%. Markets pricing in a possible hike by year-end.</p>
 
 <h3>US Macro</h3>
-<p>Fed held at 3.50–3.75% (11-1 vote). Dot plot signals one cut this year. PCE inflation raised to 2.7%. Powell's term ends May; Warsh nominated as successor. Global central banks in synchronized hold facing stagflationary pressure.</p>
+<p><a href="https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html">Fed held at 3.50–3.75%</a> (11-1). Dot plot signals one cut this year. PCE inflation raised to 2.7%. Powell's term expires May; Warsh nominated. Global central banks in synchronized hold facing stagflationary pressure.</p>
 
 <h2>Psalm of the Day — Psalm 1</h2>
 <h3>The Two Ways</h3>
@@ -55,70 +55,14 @@
 <p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
 
 <h3>Exegesis</h3>
-<p>Psalm 1 is a Torah psalm — a wisdom composition that functions as the editorial gateway to the entire Psalter. The psalm's architecture is binary: two ways, two outcomes, two images. The righteous are a tree, planted and fruitful; the wicked are chaff, weightless and wind-scattered. The opening word, ʾašrê ("blessed"), is not a prayer but a declaration. The three verbs of verse 1 — walks, stands, sits — trace a progression from casual association to settled identification with wickedness. The Hebrew tôrâ in verse 2 carries the broader sense of "instruction," not legalism. The tree image draws on ANE royal iconography but democratizes it: any person oriented around Torah becomes the flourishing tree. The closing line uses yāda' in its covenantal sense: not mere awareness but intimate, committed relationship. The way of the wicked simply perishes — dissolves into nothing. The psalm offers no third option.</p>
+<p>Psalm 1 is a Torah psalm — a wisdom composition that functions as the editorial gateway to the entire Psalter. The psalm's architecture is binary: two ways, two outcomes, two images. The righteous are a tree, planted and fruitful; the wicked are chaff, weightless and wind-scattered. The opening ʾašrê ("blessed") is a declaration, not a prayer. The three verbs — walks, stands, sits — trace a progression from casual association to settled identification with wickedness. The Hebrew tôrâ carries the broader sense of "instruction." The tree image draws on ANE royal iconography but democratizes it. The closing yāda' ("knows") operates in its covenantal sense: intimate, committed relationship. The psalm offers no third option.</p>
 
 <h2>SEP — The Problem of Evil</h2>
 <p><a href="https://plato.stanford.edu/entries/evil/">plato.stanford.edu/entries/evil/</a></p>
-<p>The problem of evil is the oldest challenge to theism: if God is omnipotent, omniscient, and perfectly good, why does evil exist? The entry distinguishes the logical problem from the evidential problem. Plantinga's Free Will Defense is widely credited with resolving the logical version. The evidential problem, sharpened by Rowe's argument from gratuitous suffering, proves harder to dispatch. Theodicies fall into several families: soul-making, free will, and natural law. Skeptical theism takes a different tack: we should not expect to understand God's reasons. Critics reply that this undercuts all moral reasoning. The debate has shifted from whether God and evil are compatible to whether specific patterns of suffering are best explained by theism or naturalism.</p>
+<p>The problem of evil is the oldest challenge to theism. The entry distinguishes the logical problem from the evidential problem. Plantinga's Free Will Defense resolved the logical version. The evidential problem, sharpened by Rowe's argument from gratuitous suffering, proves harder. Theodicies fall into several families: soul-making, free will, and natural law. Skeptical theism argues we should not expect to understand God's reasons. Critics reply this undercuts all moral reasoning. The debate has shifted from compatibility in principle to whether specific patterns of suffering are better explained by theism or naturalism.</p>
 
 <h2>Cognitive Bias — Confirmation Bias</h2>
-<p>Confirmation bias is the tendency to search for, interpret, and recall information in ways that confirm what you already believe. Wason's 2-4-6 task demonstrated this: subjects tested hypotheses by looking for confirming examples rather than trying to falsify them. The bias is compounded by motivated reasoning — the more emotionally invested you are, the more aggressively you filter for confirmation. The corrective: actively seek out the strongest version of the opposing view before concluding you're right.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Daily Briefing — 2026-03-20</title>
-      <link>https://example.com/briefings/2026-03-20.html</link>
-      <pubDate>Fri, 20 Mar 2026 12:30:00 +0000</pubDate>
-      <guid>https://example.com/briefings/2026-03-20.html</guid>
-      <description><![CDATA[
-<h2>Weather — Chilliwack / Agassiz</h2>
-<p>An atmospheric river has parked itself over the Fraser Valley and it's not going anywhere fast. Environment Canada has issued an orange rainfall warning: expect 100–120 mm of rain through the event, with heavier totals near the mountains. Today sits at a high of 13°C and a low of 5°C — mild for late March, but you won't see the sun. Winds gusting to 53 km/h will make the rain feel more aggressive than the thermometer suggests. Trails will be saturated; expect mud, standing water, and elevated river levels. If you're on the Coquihalla, a separate yellow rainfall warning is in effect with 50–80 mm expected. The weekend looks only slightly drier — showers persist through Saturday before a partial clearing Sunday, with temperatures holding steady in the 10–13°C range.</p>
-
-<h2>Tech</h2>
-
-<h3>AI / Claude</h3>
-<p>The Anthropic–Pentagon standoff continues to dominate the news cycle. After the DOD designated Anthropic a supply-chain risk for refusing to allow Claude in mass surveillance or autonomous weapons systems, the White House has now drafted an executive order to strip Claude from all federal agencies. In a remarkable show of cross-company solidarity, more than 30 OpenAI and Google DeepMind employees have signed a statement supporting Anthropic's position. Meanwhile, the double-usage-limits promotion (running March 13–27 on Free, Pro, Max, and Team plans) is driving a visible wave of user migration to Claude. On the product side, the 1M token context window is now GA for Opus 4.6 and Sonnet 4.6 at standard pricing — the media limit jumps from 100 to 600 images or PDF pages per request.</p>
-
-<h3>Competitors</h3>
-<p>NVIDIA's GTC 2026 wrapped yesterday with Jeff Dean and Bill Dally on stage. The headline: Google DeepMind, NVIDIA, EMBL, and Seoul National University expanded the AlphaFold Protein Structure Database by 1.7 million high-confidence predicted protein complexes — the largest dataset of its kind. On the model front, the gap between frontier models is narrowing: Gemini 3.1 Pro and GPT-5.4 Pro are tied at 57 on the Artificial Analysis Intelligence Index, with Claude 4.6 leading SWE-Bench at 80.8%. OpenAI reportedly signed a DOD contract within moments of Anthropic's supply-chain designation — a move protested by many of its own employees.</p>
-
-<h3>Apple</h3>
-<p>Apple's March product blitz continues to generate coverage. Eight new products have shipped this month, headlined by the MacBook Neo — Apple's $599 entry-level laptop ($499 for students) running an A18 Pro chip. The M5 MacBook Air and M5 Pro/Max MacBook Pro are now available with up to 4× AI performance over previous generations and Wi-Fi 7 via the N1 chip. The iPhone 17e has landed at $599 with 256 GB base storage and the C1X modem. Reviews are still consolidating, but early consensus favors the MacBook Air M5 as the standout value. AirPods Max 2 pre-orders open March 25.</p>
-
-<h3>General Interest</h3>
-<p>Hacker News is preoccupied with "AI coding is gambling" (420 points, 343 comments) — a piece arguing that LLM-assisted coding introduces a slot-machine dynamic where the intermittent reward of a perfect completion masks cumulative technical debt. Also trending: a Snap privilege-escalation CVE enabling local root access, Google engineers launching "Sashiko" for agentic AI code review of the Linux kernel, and the 2025 Turing Award going to quantum information science.</p>
-
-<h2>Health</h2>
-<p>A biotech firm is using Apple Watch data in a clinical trial for a Parkinson's drug — a concrete example of wearables moving from consumer fitness into regulatory-grade endpoints. New American cardiology guidelines now recommend cholesterol screening and treatment starting as early as age 30, shifting heart disease prevention significantly earlier in the lifecycle. On the policy side, two more drugmakers have joined TrumpRx, while ALS advocates are warning that federal funding cuts could stall research timelines. Device manufacturers continue to report years-long waits for Medicare coverage even after FDA approval — a structural bottleneck worth watching.</p>
-
-<h2>Business</h2>
-
-<h3>Markets</h3>
-<p>Ugly Friday. The S&amp;P 500 dropped 1.51% to 6,506.48, the Dow shed 444 points (–0.96%) to 45,577, and the Nasdaq fell 2.01% to 21,648. The Russell 2000 slipped into correction territory — down 10% from its recent high. Brent crude swung wildly, touching $119.13/bbl on Thursday before sliding to ~$107 after Netanyahu signaled the U.S. was not involved in strikes on Iran's energy infrastructure. WTI settled around $93.55. HSBC's regime models now price a 35% probability of recession, up from 10% two weeks ago.</p>
-
-<h3>Canada Macro</h3>
-<p>The Bank of Canada held at 2.25% on Wednesday — the third consecutive hold since October's cut. Governor Macklem acknowledged the dilemma: oil at $100/bbl (vs. the January MPR's $60 assumption) will push inflation higher, but GDP shrank 0.6% in Q4 and employment gains from late 2025 have been reversed. Unemployment sits at 6.7%. The BoC is threading a needle between inflation risk and recession risk, and TD's Maria Solovieva isn't ruling out a hike. Next decision: April 29.</p>
-
-<h3>US Macro</h3>
-<p>The Fed held at 3.50–3.75% on Wednesday — also a hold, with one dissent from Governor Miran who favoured a cut. The dot plot points to one reduction this year, but timing is uncertain with PCE inflation at 2.8% and the Iran conflict injecting persistent energy-price uncertainty. The Fed now projects 2.4% GDP growth this year (slightly up from December) and expects inflation to return near target by 2027 as tariff and conflict effects fade. Kevin Warsh remains the nominee to replace Powell when his term expires May 15.</p>
-
-<h2>Psalm of the Day — Psalm 2</h2>
-<h3>The Reign of the Lord's Anointed</h3>
-<p><em><sup>1</sup>Why do the nations rage and the peoples plot in vain? <sup>2</sup>The kings of the earth set themselves, and the rulers take counsel together, against the LORD and against his Anointed, saying, <sup>3</sup>"Let us burst their bonds apart and cast away their cords from us." <sup>4</sup>He who sits in the heavens laughs; the Lord holds them in derision. <sup>5</sup>Then he will speak to them in his wrath, and terrify them in his fury, saying, <sup>6</sup>"As for me, I have set my King on Zion, my holy hill." <sup>7</sup>I will tell of the decree: The LORD said to me, "You are my Son; today I have begotten you. <sup>8</sup>Ask of me, and I will make the nations your heritage, and the ends of the earth your possession. <sup>9</sup>You shall break them with a rod of iron and dash them in pieces like a potter's vessel." <sup>10</sup>Now therefore, O kings, be wise; be warned, O rulers of the earth. <sup>11</sup>Serve the LORD with fear, and rejoice with trembling. <sup>12</sup>Kiss the Son, lest he be angry, and you perish in the way, for his wrath is quickly kindled. Blessed are all who take refuge in him.</em></p>
-<p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
-
-<h3>Exegesis</h3>
-<p>Psalm 2 is a royal psalm — more precisely, an enthronement liturgy — likely composed for the coronation of a Davidic king, though its superscription offers no historical anchor and the text's universalizing scope has always invited reading beyond any single occasion. The psalm's architecture is strikingly dramatic: four stanzas, each of three verses, with a different speaker in each — the narrator (vv. 1–3), YHWH (vv. 4–6), the king (vv. 7–9), and a wisdom voice addressing the nations (vv. 10–12). This four-voice structure is rare in the Psalter and gives the poem the quality of a throne-room drama.</p>
-<p>The opening word, <em>lāmmāh</em> ("why"), is not a genuine question but a rhetorical dismissal — the nations' conspiracy is portrayed as absurd before it is portrayed as dangerous. The term <em>māšîaḥ</em> ("anointed one") in verse 2 carries its full covenantal weight: the king rules not by raw power but as YHWH's designated vassal, and rebellion against the anointed is rebellion against the suzerain. The divine laughter of verse 4 is not comic relief but a theological assertion of sovereignty — the Hebrew <em>yiśḥaq</em> here functions as the cosmic counterpart to the nations' <em>rāgšû</em> ("rage"), exposing the asymmetry between creaturely rebellion and divine rule.</p>
-<p>The decree formula in verse 7 — "You are my Son; today I have begotten you" — is the theological centre of the psalm and one of the most contested lines in the Hebrew Bible. In its Ancient Near Eastern context, this is adoption language: the king becomes YHWH's son at enthronement, not by ontology but by covenant grant. Waltke and Goldingay both stress that "begotten" (<em>yĕlidtîkā</em>) denotes the conferral of a royal-filial relationship, not a statement about the king's nature. The promise of universal dominion in verses 8–9 — "the ends of the earth" as a possession, the iron rod, the shattered pottery — employs standard ANE imperial rhetoric but radicalizes it by grounding sovereignty in divine gift rather than military conquest. The closing admonition to "kiss the Son" (v. 12, where <em>bar</em> is the Aramaic rather than Hebrew word for "son," a longstanding textual crux) carries the double valence of political submission and covenant fidelity. The psalm refuses to resolve the tension between YHWH's sovereign laughter and the real threat of his wrath — you are invited to take refuge, but the offer is framed by the knowledge that his anger is "quickly kindled."</p>
-
-<h2>SEP — Formal Epistemology</h2>
-<p><a href="https://plato.stanford.edu/entries/formal-epistemology/">plato.stanford.edu/entries/formal-epistemology/</a></p>
-<p>Formal epistemology is the branch of philosophy that applies mathematical tools — probability theory, logic, decision theory, and computability theory — to traditional questions about knowledge, belief, and rational inference. Where mainstream epistemology asks "What is knowledge?" and tangles with Gettier cases, formal epistemology tends to ask "How should degrees of belief change in response to evidence?" — a shift from categorical to graded analysis that has proved enormously productive. The field's centre of gravity is Bayesianism: the thesis that rational credences obey the probability calculus, and that belief updating should follow conditionalization (adjusting your probability assignments in light of new evidence via Bayes' theorem). The Dutch Book argument — showing that any agent whose credences violate probability axioms can be made to accept a series of bets guaranteeing a net loss — provides a pragmatic foundation for these norms, connecting epistemology to decision theory in a way few other philosophical programmes manage.</p>
-<p>Beyond Bayesianism, the field encompasses belief revision theory (the AGM framework of Alchourrón, Gärdenfors, and Makinson, which axiomatizes how rational agents contract or expand their belief sets), epistemic logic (from Hintikka's pioneering work modelling knowledge and belief as modal operators), and formal learning theory (which asks under what conditions an agent is guaranteed to converge on the truth). The entry carefully distinguishes static norms — constraints on what your beliefs should look like at any moment — from dynamic norms governing how beliefs should evolve. One of formal epistemology's distinctive contributions is making precise what traditional epistemology often leaves vague: for instance, the notion of "evidence" becomes a likelihood function, and "coherence" becomes a probabilistic constraint rather than an intuitive metaphor. The field's interdisciplinary reach is notable — its tools are shared with economics, AI, statistics, and cognitive science — and its philosophical payoff is that it forces epistemological claims to be precise enough to be wrong, which is, of course, how they become precise enough to be useful.</p>
-
-<h2>Cognitive Bias — Anchoring</h2>
-<p>Anchoring bias is the tendency to rely too heavily on the first piece of information you encounter when making a decision — even when that information is arbitrary or irrelevant. You walk into a salary negotiation and the first number on the table — theirs or yours — warps every subsequent counteroffer, regardless of what the role is actually worth. Kahneman and Tversky demonstrated this by spinning a rigged wheel of fortune before asking subjects to estimate the percentage of African nations in the United Nations; the random number on the wheel reliably dragged estimates toward it. The bias is pernicious precisely because it operates below conscious awareness — you believe you're adjusting away from the anchor, but the adjustment is almost always insufficient. The corrective: generate your own anchor before you see anyone else's. Do the analysis first, write down your number, and then engage. As Munger would put it, the person who names the first number in a negotiation isn't being rude — they're being strategic, and you should be too.</p>
+<p>Confirmation bias is the tendency to search for, interpret, and recall information that confirms existing beliefs. <a href="https://en.wikipedia.org/wiki/Wason%27s_2-4-6_task">Wason's 2-4-6 task</a> demonstrated this: subjects tested hypotheses by seeking confirmation rather than falsification. The corrective: actively seek the strongest opposing view before concluding you're right.</p>
       ]]></description>
     </item>
   </channel>

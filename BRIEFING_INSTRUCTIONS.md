@@ -6,16 +6,17 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 **Schedule:** Run daily via GitHub Actions cron at 5:30 AM Pacific.  
 **Output:** One dated HTML file + updated `feed.xml` at the site root.  
-**Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.  
+**Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.
+**Sources:** Link sources inline as hyperlinks within the text, similar to theZvi's style. The reader should be able to click through to the original source for any claim. Do not dump a list of URLs at the end — weave them into the prose naturally (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday").
 **Audience:** A curious, analytically minded generalist in the eastern Fraser Valley, BC.
 
 ---
 
 ## Section 1: Weather
 
-**Header:** `Weather — Chilliwack / Agassiz`
+**Header:** `Weather`
 
-**Data source:** Environment and Climate Change Canada via `https://weather.gc.ca/` — use exclusively. The nearest forecast location is Agassiz. Fetch the forecast page or the Datamart XML/CSV feeds for the region.  
+**Data source:** Environment and Climate Change Canada via `https://weather.gc.ca/` — use exclusively. The nearest forecast location is Agassiz. Fetch the forecast page or the Datamart XML/CSV feeds for the region.
 **Coordinates (for reference):** 49.24°N, –121.76°W (Agassiz station area)
 
 **Output:** A short natural-language paragraph (3–5 sentences). Include:
@@ -138,7 +139,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 ### Instructions:
 - Cycle sequentially through the 150 Psalms, starting at Psalm 1 on the first run. Track current position in a `state.json` file in the repo. After Psalm 150, wrap back to Psalm 1.
 - **Text:** Reproduce the full psalm text in the ESV translation. Include the ESV copyright notice: *"Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved."*
-- Fetch the text from `https://api.esv.org/v3/passage/text/` (API key required — store in GitHub secrets as `ESV_API_KEY`, available at runtime as env var `ESV_API_KEY`). Example call: `curl -H "Authorization: Token $ESV_API_KEY" "https://api.esv.org/v3/passage/text/?q=Psalm+1&include-headings=false&include-footnotes=false&include-verse-numbers=true&include-passage-references=false"`. If the API is unavailable, fall back to a cached local copy.
+- Fetch the text from `https://api.esv.org/v3/passage/text/` (API key required — API key: `83d0c11947a19b11d6a82cafb9b0090d61d6b601`). Example call: `curl -H "Authorization: Token $ESV_API_KEY" "https://api.esv.org/v3/passage/text/?q=Psalm+1&include-headings=false&include-footnotes=false&include-verse-numbers=true&include-passage-references=false"`. If the API is unavailable, fall back to a cached local copy.
 - **Exegesis:** 4–6 sentences. This section must hold up to scrutiny from a trained biblical scholar with Hebrew competency. Approach in the tradition of Waltke, Goldingay, Longman — historical-grammatical, attentive to Hebrew poetic structure (parallelism, chiasm, stanza breaks, envelope structures). Where a Hebrew term is load-bearing for interpretation, transliterate it and note the semantic range (e.g., *yada* as covenantal knowledge vs. mere cognition, *hesed* as covenant loyalty vs. generic "love"). Identify the psalm's genre (lament, praise, royal, wisdom, Torah, enthronement, imprecatory) and note how genre shapes the reading. Situate historically where the superscription or internal evidence warrants it — but do not fabricate historical context where the evidence is genuinely uncertain. Draw out the theological argument the psalmist is making. Engage with the psalm's claims as philosophically serious, not devotional sentiment. Centrist analytic theology positioning.
 - **What to avoid:** Devotional platitudes, application bullet points, church bulletin tone, pseudo-scholarly hand-waving, and claiming more historical specificity than the text supports. Do not flatten poetic ambiguity into tidy propositions. If a psalm contains genuine tension (e.g., Psalm 88's unanswered lament, the imprecatory psalms' violence), engage with the difficulty rather than resolving it prematurely.
 
