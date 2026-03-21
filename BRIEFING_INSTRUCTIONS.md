@@ -7,7 +7,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 **Schedule:** Run daily via GitHub Actions cron at 5:30 AM Pacific.  
 **Output:** One dated HTML file + updated `feed.xml` at the site root.  
 **Tone:** Informed, concise, literate. Write like a smart human editor, not a data dump. Dry wit is welcome; forced humor is not. If nothing notable happened in a section, say "Quiet day in [section]" — never pad.
-**Sources:** Link sources inline as hyperlinks within the text, similar to theZvi's style. The reader should be able to click through to the original source for any claim. Do not dump a list of URLs at the end — weave them into the prose naturally (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday").
+**Sources:** Every factual claim in every news section (Tech, Health, Business) **must** include an inline hyperlink to its source, without exception. No unlinked claims. Weave links into the prose naturally, similar to theZvi's style (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday"). Do not dump a list of URLs at the end. If you cannot find a credible source for a claim, do not include the claim.
 **Audience:** A curious, analytically minded generalist in the eastern Fraser Valley, BC.
 
 ---
@@ -104,10 +104,9 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 5. **Derek Thompson** — `https://www.derekthompson.org/` (Substack) + X feed. Covers public health, demographics, structural trends. Slot his content into whichever section fits (#Health or #Business).
 
 ### Instructions:
-- Biotech: new treatments, longevity research, notable trial results.
-- Biohacking/optimization: new findings on supplements, training, sleep, anything with real data.
-- Public health: epidemiology, policy shifts, population-level significance.
-- **3–5 sentences total.** Say "Quiet day in health/biotech" if nothing notable.
+- **Scope:** Transhumanism, biohacking, longevity, and life-extension research only. This section covers the frontier of human enhancement — senolytics, rapamycin trials, gene therapy for aging, novel biomarkers, wearable breakthroughs with real data, supplement research with meaningful effect sizes, and protocol updates from credible self-experimenters (e.g., Bryan Johnson).
+- **Out of scope:** General pharma earnings, broad biotech layoffs, public health policy, epidemiology, cancer drug approvals (unless directly longevity-relevant), and anything that belongs in a conventional health news roundup. If it would run in a hospital newsletter, it probably doesn't belong here.
+- **3–5 sentences total.** If nothing noteworthy happened in the previous 24 hours, **omit the section entirely** — do not pad or include filler.
 
 ---
 
@@ -216,9 +215,13 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ---
 
-## Date Anchoring
+## Date Anchoring & Verification
 
-**Critical:** All searches and content must be anchored to the previous 24 hours. When searching for news, always include today's date or "today" / "yesterday" in queries. Stale results dressed up as new is a failure mode. If a story is more than 24 hours old, it's not news — it's context. Do not write weekly roundups or summarize multi-day arcs. Each briefing covers what happened *since the last briefing*. The only exception is the weather lookahead, which should glance 2–3 days forward.
+**Critical:** All searches and content must be anchored to the previous 24 hours. When searching for news, always include today's date or "today" / "yesterday" in queries. Stale results dressed up as new is a failure mode.
+
+**Verification step:** Before including any news item, confirm that the source article or announcement was published within the previous 24 hours. Check the publication date on the source page. If the story is older than 24 hours, it may only be included as brief context for a genuinely new development — and must be clearly framed as background (e.g., "Following last week's announcement, …"). Do not present older stories as if they are today's news.
+
+**Framing:** If a multi-day arc has a new development today, lead with the new development and provide one sentence of background. If there is no new development, omit the story entirely — do not write weekly roundups or recap multi-day arcs. Each briefing covers what happened *since the last briefing*. The only exception is the weather lookahead, which should glance 2–3 days forward.
 
 ---
 
