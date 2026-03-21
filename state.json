@@ -6,26 +6,30 @@
     "cycle_complete": false
   },
   "sep_entries_used": [
-    "https://plato.stanford.edu/entries/evil/"
+    "https://plato.stanford.edu/entries/formal-epistemology/"
   ],
   "bias_entries_used": [
-    "Confirmation Bias"
+    "Anchoring"
   ],
   "recent_stories": [
-    { "date": "2026-03-20", "key": "fraser-valley-atmospheric-river-flood", "headline": "Atmospheric river triggers Chilliwack state of emergency" },
-    { "date": "2026-03-20", "key": "claude-code-v2.1.81", "headline": "Claude Code v2.1.81 ships --bare flag" },
-    { "date": "2026-03-20", "key": "claude-code-v2.1.80-plugins", "headline": "Claude Code v2.1.80 inline plugin declarations and /loop" },
-    { "date": "2026-03-20", "key": "microsoft-copilot-cowork-launch", "headline": "Microsoft Copilot Cowork launches powered by Claude" },
-    { "date": "2026-03-20", "key": "anthropic-cowork-desktop-updates", "headline": "Anthropic Cowork: scheduled tasks, Customize, Dispatch" },
-    { "date": "2026-03-20", "key": "anthropic-global-ai-attitudes-survey", "headline": "Anthropic survey of 81K people on AI attitudes" },
-    { "date": "2026-03-20", "key": "doj-anthropic-pentagon-injunction", "headline": "DOJ urges court to reject Anthropic Pentagon injunction" },
-    { "date": "2026-03-20", "key": "openai-ipo-exploration", "headline": "OpenAI surpasses $25B annualized revenue, exploring IPO" },
-    { "date": "2026-03-20", "key": "gpt-5.4-launch", "headline": "GPT-5.4 launches with 1.05M token context" },
-    { "date": "2026-03-20", "key": "apple-march-product-week-reviews", "headline": "Apple March product week reviews consolidating" },
-    { "date": "2026-03-20", "key": "hn-starlink-flights-cve-snap", "headline": "HN: Starlink flight checker, Snap CVE-2026-3888" },
-    { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline", "headline": "S&P 500 fourth consecutive weekly decline, Brent $112" },
-    { "date": "2026-03-20", "key": "boc-rate-hold-march-2.25", "headline": "Bank of Canada holds at 2.25%, third consecutive hold" },
-    { "date": "2026-03-20", "key": "fed-hold-march-3.50-3.75", "headline": "Fed holds at 3.50-3.75%, Warsh nominated" }
+    { "date": "2026-03-20", "key": "fvrd-state-of-emergency-atmospheric-river", "headline": "FVRD declares state of emergency, 40 homes under evacuation alert" },
+    { "date": "2026-03-20", "key": "coquitlam-mudslide-airlift", "headline": "Mudslide in Coquitlam forces couple airlift" },
+    { "date": "2026-03-20", "key": "claude-code-v2.1.81", "headline": "Claude Code v2.1.81: --bare flag, --channels permission relay" },
+    { "date": "2026-03-20", "key": "claude-code-v2.1.80", "headline": "Claude Code v2.1.80: rate_limits statusline, settings plugins, effort frontmatter" },
+    { "date": "2026-03-20", "key": "anthropic-ai-attitudes-survey-81k", "headline": "Anthropic survey of 81K people on AI attitudes across 159 countries" },
+    { "date": "2026-03-20", "key": "doj-anthropic-pentagon-injunction", "headline": "DOJ urges court to reject Anthropic preliminary injunction, hearing March 24" },
+    { "date": "2026-03-20", "key": "gpt-5.4-mini-chatgpt-rollout", "headline": "GPT-5.4 Mini rolled out to ChatGPT Free and Go users" },
+    { "date": "2026-03-20", "key": "openai-ends-instant-checkout", "headline": "OpenAI ending Instant Checkout in ChatGPT, pivoting to retailer apps" },
+    { "date": "2026-03-20", "key": "gemini-workspace-update", "headline": "Gemini Workspace update: contextual drafting, AI spreadsheets, deck generation" },
+    { "date": "2026-03-20", "key": "apple-mac-launch-record-first-time-buyers", "headline": "Tim Cook: best Mac launch week ever for first-time customers" },
+    { "date": "2026-03-20", "key": "macbook-neo-backorder-demand", "headline": "MacBook Neo demand outstripping supply, April delivery estimates" },
+    { "date": "2026-03-20", "key": "hn-ai-coding-is-gambling", "headline": "HN top: 'AI coding is gambling' (420 pts)" },
+    { "date": "2026-03-20", "key": "cve-2026-3888-snap-root-escalation", "headline": "CVE-2026-3888: Snap privilege escalation to root" },
+    { "date": "2026-03-20", "key": "google-sashiko-kernel-code-review", "headline": "Google engineers launch Sashiko for agentic AI kernel code review" },
+    { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline-brent-120", "headline": "S&P 500 fourth weekly decline, Brent topped $120" },
+    { "date": "2026-03-20", "key": "planet-labs-q4-breakeven-surge", "headline": "Planet Labs surged 26% on breakeven Q4 and 41% revenue growth" },
+    { "date": "2026-03-20", "key": "boc-hold-2.25-march", "headline": "Bank of Canada holds at 2.25%, warns Iran war will boost inflation" },
+    { "date": "2026-03-20", "key": "fed-hold-3.50-3.75-march", "headline": "Fed holds 3.50-3.75%, 92K jobs cut in Feb, PCE raised to 2.7%" }
   ],
   "last_run_date": "2026-03-20"
 }
