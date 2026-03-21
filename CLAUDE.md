@@ -9,6 +9,21 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 **Sources:** Every factual claim in every news section (Tech, Health, Business) **must** include an inline hyperlink to its source, without exception. No unlinked claims. Weave links into the prose naturally, similar to theZvi's style (e.g., "The [Bank of Canada held at 2.25%](https://www.bankofcanada.ca/...) on Wednesday"). Do not dump a list of URLs at the end. If you cannot find a credible source for a claim, do not include the claim.
 **Audience:** A curious, analytically minded generalist in the eastern Fraser Valley, BC.
 
+### Whitelisted Domains
+
+Only fetch from and link to the following domains. Do not use sources outside this list.
+
+| Section | Domains |
+|---------|---------|
+| Weather | `weather.gc.ca` |
+| Tech | `code.claude.com`, `support.claude.com`, `anthropic.com`, `claude.com`, `x.com`, `openai.com`, `blog.google`, `macrumors.com`, `macstories.net`, `9to5mac.com`, `apple.com`, `arstechnica.com`, `theverge.com`, `stratechery.com` |
+| Health | `statnews.com`, `nature.com`, `examine.com` |
+| Business | `bankofcanada.ca`, `scotiabank.com`, `fred.stlouisfed.org`, `federalreserve.gov`, `bnnbloomberg.ca`, `ft.com` |
+| Psalm | `api.esv.org` |
+| SEP | `plato.stanford.edu` |
+| General news | `cbc.ca`, `reuters.com`, `bloomberg.com`, `axios.com` |
+| Local | `theprogress.com`, `fraservalleytoday.ca` |
+
 ---
 
 ## Section 1: Weather
@@ -37,23 +52,22 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 **Subsections:** Claude Code → Cowork → Claude Platform / Models → Competitors → Apple → General Interest
 
 ### Sources (fetch in order of priority):
-1. **Anthropic employee X accounts** — ground-level sources where feature news breaks first, often days before official announcements. Check these before corporate channels:
-   - `@bcherny` — Boris Cherny, Claude Code lead. Ships features, announces Claude Code releases and changelogs.
-   - `@noahzweben` — Noah Zweben, Claude Code team. Feature drops, UX changes, integration updates.
-   - `@felixrieseberg` — Felix Rieseberg, Claude Code / Cowork / Claude Code Desktop. Key source for Cowork features, Dispatch, and the code-to-knowledge-work crossover.
-   - `@alexalbert__` — Alex Albert, Claude product. Model launches, product direction, system prompt updates.
-   - `@trq212` — Claude Code team. Changelog and version updates.
-2. **Anthropic blog / changelog** — `https://www.anthropic.com/news`, `https://www.anthropic.com/engineering`, and `https://claude.com/blog` — for official announcements, model releases, and policy updates.
-3. **Claude Code release notes** — `https://support.claude.com/en/articles/12138966-release-notes` — the official changelog. Cross-reference with employee X posts for context on what shipped.
-4. **OpenAI blog** — `https://openai.com/blog`
-5. **Google DeepMind / Gemini blog** — `https://blog.google/technology/ai/`
-6. **MacRumors** — `https://www.macrumors.com/` (Apple breaking news)
-7. **MacStories** — `https://www.macstories.net/` (Apple depth/reviews)
-8. **Six Colors** — `https://sixcolors.com/` (Jason Snell, concise Apple commentary)
-9. **Ars Technica** — `https://arstechnica.com/`
-10. **The Verge** — `https://www.theverge.com/`
-11. **Stratechery** — `https://stratechery.com/` (Ben Thompson, framework analysis)
-12. **Hacker News front page** — `https://news.ycombinator.com/` (signal filter for what technical community cares about)
+1. **Anthropic employee X accounts** — ground-level sources where feature news breaks first. Check these before corporate channels:
+   - `@bcherny` — Boris Cherny, Claude Code lead.
+   - `@noahzweben` — Noah Zweben, Claude Code team.
+   - `@felixrieseberg` — Felix Rieseberg, Claude Code / Cowork / Desktop.
+   - `@alexalbert__` — Alex Albert, Claude product.
+   - `@trq212` — Claude Code team.
+2. **Anthropic blog / changelog** — `anthropic.com/news`, `anthropic.com/engineering`, `claude.com/blog`
+3. **Claude Code changelog** — `code.claude.com/docs/en/changelog` and `support.claude.com/en/articles/12138966-release-notes`
+4. **OpenAI blog** — `openai.com/blog`
+5. **Google DeepMind / Gemini blog** — `blog.google/technology/ai/`
+6. **MacRumors** — `macrumors.com`
+7. **MacStories** — `macstories.net`
+8. **9to5Mac** — `9to5mac.com`
+9. **Ars Technica** — `arstechnica.com`
+10. **The Verge** — `theverge.com`
+11. **Stratechery** — `stratechery.com`
 
 ### Instructions:
 
@@ -116,11 +130,12 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 **Subsections:** Markets → Canada Macro → US Macro
 
 ### Sources:
-1. **Derek Holt / Scotia Economics Daily Points** — `https://www.scotiabank.com/ca/en/about/economics/economics-publications.daily-points.html` (Canadian macro, rates, BoC — primary source, published daily on business days)
-2. **Bank of Canada press releases** — `https://www.bankofcanada.ca/` (rate decisions, MPR days)
-3. **FRED / US BLS** — `https://fred.stlouisfed.org/` (US macro data)
-4. **Matt Levine's Money Stuff** — Bloomberg newsletter archive (markets + context, daily on business days)
-5. **Financial Times** — `https://www.ft.com/` (global macro narrative, best-effort given paywall — use freely available headlines and summaries)
+1. **Derek Holt / Scotia Economics Daily Points** — `scotiabank.com` (Canadian macro, rates, BoC — primary source)
+2. **Bank of Canada press releases** — `bankofcanada.ca` (rate decisions, MPR days)
+3. **FRED / US BLS** — `fred.stlouisfed.org` (US macro data)
+4. **Federal Reserve** — `federalreserve.gov` (FOMC statements, dot plots)
+5. **BNN Bloomberg** — `bnnbloomberg.ca` (Canadian markets and macro)
+6. **Financial Times** — `ft.com` (global macro narrative, best-effort given paywall)
 
 ### Instructions:
 - **Markets:** Quick read on major indices, oil, notable sector moves. One to two sentences. More like a ticker than analysis, unless something dramatic happened.
