@@ -270,3 +270,62 @@ At the end of each run, prune any `recent_stories` entries where `date` is more 
 3. **Interpret, don't dump.** "7°C overnight, no frost risk, but Thursday drops to 1°C — plan accordingly" beats a table of numbers.
 4. **Anchor to sources.** Never hallucinate a news item. If you're uncertain whether something happened, don't include it.
 5. **Respect the reader's time.** The whole briefing should be readable in 5–7 minutes.
+
+---
+
+## Final Step: Self-Review (mandatory)
+
+After generating the briefing and updating all files (HTML, index, feed, state), you **must** perform a structured review pass before committing. This is not optional.
+
+### Procedure
+
+1. Re-read the generated briefing HTML file from disk (do not rely on your memory of what you wrote).
+2. Re-read `state.json` as it was **before** you updated it (use git to check the prior version if needed, or recall the values you read at the start).
+3. Walk through every check below. For each check, confirm pass or note the failure.
+4. If **any** check fails: fix the issue in the briefing (and index/feed/state if affected), then re-run the checks on the corrected output.
+5. Only commit once all checks pass.
+
+### Checklist
+
+#### 1. Source links (zero tolerance)
+- Every factual claim in Tech, Health, and Business sections has an inline hyperlink to a source.
+- No bare URLs — all links are woven into prose as anchor text.
+- No claims without sources. If a claim cannot be sourced, remove the claim.
+
+#### 2. Psalm sequencing
+- The psalm number in the briefing matches the `scripture.current_chapter` value you read from `state.json` at the start of the run.
+- The psalm text is complete (all verses present).
+- ESV copyright notice is included.
+
+#### 3. SEP & Bias deduplication
+- The SEP entry URL does **not** appear in `state.json → sep_entries_used`.
+- The bias name does **not** appear in `state.json → bias_entries_used`.
+
+#### 4. News deduplication
+- No story in the briefing matches a `key` in `state.json → recent_stories` unless the briefing explicitly presents a new development and frames the prior coverage as background.
+- Stories covered in previous briefings without new developments are omitted.
+
+#### 5. Date accuracy
+- The `<title>` tag date matches the briefing's `<div class="date">` date.
+- The date is today's date.
+- The day-of-week is correct for the date.
+- The footer generation timestamp is plausible.
+
+#### 6. Freshness
+- News items describe events from the previous 24 hours, not older recaps.
+- Multi-day stories lead with the new development, not a summary of the arc.
+
+#### 7. Section scope
+- Health section covers only transhumanism/biohacking/longevity. If nothing qualifies, the section is omitted entirely.
+- Weather header is `Weather` (no location suffix).
+
+#### 8. Structure & format
+- All required sections present (Weather, Tech, Business, Psalm, SEP, Bias). Health is optional.
+- `<hr class="section-rule">` between sections.
+- Links to `/style.css` (no inline styles except small-caps on LORD).
+- Responsive viewport meta tag present.
+
+#### 9. Coherence & readability
+- News items are written in natural, complete sentences — not telegraphic fragments.
+- No incoherent or garbled text.
+- No hallucinated or fabricated news items (flag anything that seems implausible or unsourced).
