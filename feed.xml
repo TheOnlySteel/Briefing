@@ -4,8 +4,67 @@
     <title>Daily Briefing</title>
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
-    <lastBuildDate>Fri, 20 Mar 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 12:30:00 +0000</lastBuildDate>
     <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily Briefing — 2026-03-21</title>
+      <link>https://example.com/briefings/2026-03-21.html</link>
+      <pubDate>Sat, 21 Mar 2026 12:30:00 +0000</pubDate>
+      <guid>https://example.com/briefings/2026-03-21.html</guid>
+      <description><![CDATA[
+<h2>Weather — Chilliwack / Agassiz</h2>
+<p>The atmospheric river is finally loosening its grip, but the damage is done. A rainfall warning remains in effect for the Fraser Valley after 100–120 mm fell this week, and Chilliwack has declared a local state of emergency with the Chilliwack River approaching its expected crest — roughly 40 homes are under evacuation alert, though dikes are holding. Today brings a high of 10°C with a 40% chance of showers, overnight low of 5°C. Sunday is similar — 9°C, scattered showers, overnight low dipping to 2°C. Monday climbs to 11°C under cloud before rain returns Tuesday through midweek. Trails remain saturated; expect standing water and elevated river levels through the weekend.</p>
+
+<h2>Tech</h2>
+
+<h3>Claude Code</h3>
+<p>Claude Code hit v2.1.81 yesterday with the <code>--bare</code> flag for scripted <code>-p</code> calls — it skips hooks, LSP, and plugin sync, useful for CI pipelines. Earlier this week: v2.1.80 added inline plugin declarations in settings.json, CLI tool-usage detection for plugin tips, and effort frontmatter support for skills. The /loop command now handles recurring prompts at set intervals for unsupervised test cycles. Agent Teams remain in research preview. Voice mode added 10 new languages this month, bringing the total to 20.</p>
+
+<h3>Cowork</h3>
+<p>Microsoft Copilot Cowork launched March 10, powered by Claude, for multi-step tasks across M365. Anthropic's own Cowork now supports scheduled and recurring tasks, with a new Customize section grouping skills, plugins, and connectors. Dispatch — remote control from mobile — is live. Windows parity continues to improve since February launch.</p>
+
+<h3>Claude Platform</h3>
+<p>Anthropic published a survey of ~81,000 people across 159 countries on AI attitudes — Sub-Saharan Africa and Asia are significantly more optimistic about AI than Western Europe and North America. The DOJ urged a federal court to reject Anthropic's preliminary injunction against the Pentagon's supply-chain risk designation.</p>
+
+<h3>Competitors</h3>
+<p>OpenAI has surpassed $25B in annualized revenue and is reportedly exploring a public listing as soon as late 2026. GPT-5.4 launched this month with a 1.05M token context window. The gap between frontier models is described as "increasingly marginal" on practical tasks. MCP is becoming the industry standard; OpenAI, Microsoft, and Google have all adopted it.</p>
+
+<h3>Apple</h3>
+<p>Reviews consolidating around the MacBook Air M5 as the standout value from Apple's March product week. The MacBook Neo ($599) is drawing attention as a Chromebook killer. iPhone 17e reviews are mixed on C1X modem real-world performance. Rumour: iPhone Fold in development; iOS 27 to focus on stability.</p>
+
+<h3>General Interest</h3>
+<p>Hacker News: "Show HN: Will my flight have Starlink?" (350 points). CVE-2026-3888 Snap privilege escalation to root (148 comments). North Korean fake IT workers netting $500M/year. UK government backtracking on AI and copyright after artist outcry.</p>
+
+<h2>Health</h2>
+<p>AACR 2026 underway in San Diego. J&amp;J's Icotyde cleared as first oral peptide blocking IL-23, projected to top $5B in sales. BioCryst got FDA approval for oral ORLADEYO for children. Biotech layoffs accelerating: Gossamer Bio cutting 48%, Theravance shutting down R&amp;D, Evotec cutting 800. Biopharma venture funding running behind 2025 pace.</p>
+
+<h2>Business</h2>
+
+<h3>Markets</h3>
+<p>Fourth consecutive weekly decline. S&amp;P 500 closed at 5,606, down 1.51%. Nasdaq fell 2.01%. Russell 2000 in correction territory. Brent topped $112/bbl after Iraq declared force majeure and drones struck Kuwaiti refineries.</p>
+
+<h3>Canada Macro</h3>
+<p>Bank of Canada held at 2.25%. CPI eased to 1.8% in February. Unemployment at 6.7%. Markets now pricing in a possible rate hike by year-end. Next decision: April 29.</p>
+
+<h3>US Macro</h3>
+<p>Fed held at 3.50–3.75% (11-1 vote). Dot plot signals one cut this year. PCE inflation raised to 2.7%. Powell's term ends May; Warsh nominated as successor. Global central banks in synchronized hold facing stagflationary pressure.</p>
+
+<h2>Psalm of the Day — Psalm 1</h2>
+<h3>The Two Ways</h3>
+<p><em><sup>1</sup>Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; <sup>2</sup>but his delight is in the law of the LORD, and on his law he meditates day and night. <sup>3</sup>He is like a tree planted by streams of water that yields its fruit in its season, and its leaf does not wither. In all that he does, he prospers. <sup>4</sup>The wicked are not so, but are like chaff that the wind drives away. <sup>5</sup>Therefore the wicked will not stand in the judgment, nor sinners in the congregation of the righteous; <sup>6</sup>for the LORD knows the way of the righteous, but the way of the wicked will perish.</em></p>
+<p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
+
+<h3>Exegesis</h3>
+<p>Psalm 1 is a Torah psalm — a wisdom composition that functions as the editorial gateway to the entire Psalter. The psalm's architecture is binary: two ways, two outcomes, two images. The righteous are a tree, planted and fruitful; the wicked are chaff, weightless and wind-scattered. The opening word, ʾašrê ("blessed"), is not a prayer but a declaration. The three verbs of verse 1 — walks, stands, sits — trace a progression from casual association to settled identification with wickedness. The Hebrew tôrâ in verse 2 carries the broader sense of "instruction," not legalism. The tree image draws on ANE royal iconography but democratizes it: any person oriented around Torah becomes the flourishing tree. The closing line uses yāda' in its covenantal sense: not mere awareness but intimate, committed relationship. The way of the wicked simply perishes — dissolves into nothing. The psalm offers no third option.</p>
+
+<h2>SEP — The Problem of Evil</h2>
+<p><a href="https://plato.stanford.edu/entries/evil/">plato.stanford.edu/entries/evil/</a></p>
+<p>The problem of evil is the oldest challenge to theism: if God is omnipotent, omniscient, and perfectly good, why does evil exist? The entry distinguishes the logical problem from the evidential problem. Plantinga's Free Will Defense is widely credited with resolving the logical version. The evidential problem, sharpened by Rowe's argument from gratuitous suffering, proves harder to dispatch. Theodicies fall into several families: soul-making, free will, and natural law. Skeptical theism takes a different tack: we should not expect to understand God's reasons. Critics reply that this undercuts all moral reasoning. The debate has shifted from whether God and evil are compatible to whether specific patterns of suffering are best explained by theism or naturalism.</p>
+
+<h2>Cognitive Bias — Confirmation Bias</h2>
+<p>Confirmation bias is the tendency to search for, interpret, and recall information in ways that confirm what you already believe. Wason's 2-4-6 task demonstrated this: subjects tested hypotheses by looking for confirming examples rather than trying to falsify them. The bias is compounded by motivated reasoning — the more emotionally invested you are, the more aggressively you filter for confirmation. The corrective: actively seek out the strongest version of the opposing view before concluding you're right.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Daily Briefing — 2026-03-20</title>
       <link>https://example.com/briefings/2026-03-20.html</link>

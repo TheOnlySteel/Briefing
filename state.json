@@ -1,15 +1,17 @@
 {
   "scripture": {
     "book": "Psalm",
-    "current_chapter": 3,
+    "current_chapter": 2,
     "total_chapters": 150,
     "cycle_complete": false
   },
   "sep_entries_used": [
-    "https://plato.stanford.edu/entries/formal-epistemology/"
+    "https://plato.stanford.edu/entries/formal-epistemology/",
+    "https://plato.stanford.edu/entries/evil/"
   ],
   "bias_entries_used": [
-    "Anchoring Bias"
+    "Anchoring Bias",
+    "Confirmation Bias"
   ],
-  "last_run_date": "2026-03-20"
+  "last_run_date": "2026-03-21"
 }
