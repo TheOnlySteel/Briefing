@@ -202,7 +202,45 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
   - `scripture.cycle_complete` (boolean)
   - `sep_entries_used` (array of URLs, clears when full cycle complete)
   - `bias_entries_used` (array of names, clears when full cycle complete)
+  - `recent_stories` (array of objects, rolling 7-day window — see below)
   - `last_run_date` (ISO date string)
+
+#### State update protocol (mandatory)
+
+Every run **must** follow this sequence — no exceptions:
+
+1. **Read** `state.json` at the start of the run.
+2. **Use** the values as-is: use `scripture.current_chapter` for today's psalm, check `sep_entries_used` and `bias_entries_used` before selecting new entries, and check `recent_stories` before writing news items.
+3. **Update** `state.json` at the end of the run, before committing:
+   - Increment `scripture.current_chapter` by 1 (wrap to 1 after 150).
+   - Append the new SEP URL to `sep_entries_used`.
+   - Append the new bias name to `bias_entries_used`.
+   - Append today's story keys to `recent_stories` and prune entries older than 7 days.
+   - Set `last_run_date` to today's date.
+4. **Commit** the updated `state.json` alongside the briefing files.
+
+#### News deduplication via `recent_stories`
+
+The `recent_stories` array tracks stories covered in the previous 7 days. Each entry is an object:
+
+```json
+{
+  "date": "2026-03-20",
+  "key": "openai-ipo-exploration",
+  "headline": "OpenAI exploring public listing"
+}
+```
+
+- `key`: A short, slugified topic identifier (e.g., `"claude-code-v2.1.81"`, `"boc-rate-hold-march"`, `"apple-macbook-neo-launch"`).
+- `headline`: A human-readable one-liner for context.
+
+**Before including any news item**, check `recent_stories` for a matching or closely related `key`. Rules:
+
+- **If the story was covered in a previous briefing and there is no new development today:** omit it entirely.
+- **If the story was covered but there is a genuinely new development:** include it, but lead with the new development and reference the prior coverage briefly (e.g., "The OpenAI IPO exploration [previously noted] now has a reported timeline…"). Add a new entry to `recent_stories` with an updated key reflecting the new angle.
+- **If the story is entirely new:** include it and add it to `recent_stories`.
+
+At the end of each run, prune any `recent_stories` entries where `date` is more than 7 days old.
 
 ---
 
