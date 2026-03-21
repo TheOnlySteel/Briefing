@@ -13,7 +13,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 1: Weather
 
-**Header:** `☀️ Weather — Chilliwack / Agassiz`
+**Header:** `Weather — Chilliwack / Agassiz`
 
 **Data source:** Environment and Climate Change Canada via `https://weather.gc.ca/` — use exclusively. The nearest forecast location is Agassiz. Fetch the forecast page or the Datamart XML/CSV feeds for the region.  
 **Coordinates (for reference):** 49.24°N, –121.76°W (Agassiz station area)
@@ -32,7 +32,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 2: #Tech
 
-**Header:** `💻 #Tech`
+**Header:** `Tech`
 
 **Subsections:** Claude Code → Cowork → Claude Platform / Models → Competitors → Apple → General Interest
 
@@ -93,7 +93,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 3: #Health
 
-**Header:** `🧬 #Health`
+**Header:** `Health`
 
 ### Sources:
 1. **STAT News** — `https://www.statnews.com/` (biotech, pharma, public health)
@@ -112,7 +112,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 4: #Business
 
-**Header:** `📈 #Business`
+**Header:** `Business`
 
 **Subsections:** Markets → Canada Macro → US Macro
 
@@ -133,7 +133,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 5: Psalm of the Day
 
-**Header:** `📖 Psalm of the Day`
+**Header:** `Psalm of the Day — [Psalm N]`
 
 ### Instructions:
 - Cycle sequentially through the 150 Psalms, starting at Psalm 1 on the first run. Track current position in a `state.json` file in the repo. After Psalm 150, wrap back to Psalm 1.
@@ -146,7 +146,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 6: Stanford Encyclopedia of Philosophy
 
-**Header:** `🏛️ SEP — [Entry Title]`
+**Header:** `SEP — [Entry Title]`
 
 ### Instructions:
 - Fetch the SEP table of contents from `https://plato.stanford.edu/contents.html`.
@@ -160,7 +160,7 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ## Section 7: Bias / Fallacy of the Day
 
-**Header:** `🧠 Cognitive Bias of the Day: [Name]`
+**Header:** `Cognitive Bias — [Name]`
 
 ### Instructions:
 - Cycle through the universe of cognitive biases and logical fallacies. Sources: Munger's 25 tendencies, Kahneman/Tversky catalog, standard lists of logical fallacies, yourbiasis.is. Track in `state.json`.
@@ -173,7 +173,10 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ### HTML File
 - Save to `/briefings/YYYY-MM-DD.html`
-- Clean, readable HTML. Use a simple, consistent template with a serif font for body text, clear section headers, and adequate whitespace.
+- Link to the shared stylesheet: `<link rel="stylesheet" href="/style.css">`
+- No inline `<style>` blocks — all styling lives in `/style.css`
+- Section headers are plain text (no emoji) rendered as uppercase small-caps via CSS
+- Use `<hr class="section-rule">` between sections for visual separation
 - Include a `<title>` tag: `Daily Briefing — YYYY-MM-DD`
 - Mobile-friendly (responsive viewport meta tag, reasonable max-width)
 
@@ -193,7 +196,10 @@ Generate a daily morning briefing as an HTML page and an RSS feed entry. Deploy 
 
 ### State File
 - `state.json` at repo root. Tracks:
-  - `psalm_number` (1–150, wraps)
+  - `scripture.book` (string, e.g. "Psalm")
+  - `scripture.current_chapter` (1–150, the next chapter to use)
+  - `scripture.total_chapters` (150)
+  - `scripture.cycle_complete` (boolean)
   - `sep_entries_used` (array of URLs, clears when full cycle complete)
   - `bias_entries_used` (array of names, clears when full cycle complete)
   - `last_run_date` (ISO date string)
