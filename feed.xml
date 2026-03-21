@@ -5,12 +5,12 @@
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
     <lastBuildDate>Fri, 20 Mar 2026 12:30:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://briefing.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Daily Briefing — 2026-03-20</title>
-      <link>https://example.com/briefings/2026-03-20.html</link>
+      <link>https://briefing.netlify.app/briefings/2026-03-20.html</link>
       <pubDate>Fri, 20 Mar 2026 12:30:00 +0000</pubDate>
-      <guid>https://example.com/briefings/2026-03-20.html</guid>
+      <guid>https://briefing.netlify.app/briefings/2026-03-20.html</guid>
       <description><![CDATA[
 <h2>Weather</h2>
 <p>The atmospheric river that parked over the Fraser Valley this week is finally easing, but not before dumping 100–120 mm of rain and triggering a <a href="https://abbynews.com/2026/03/20/rainfall-warning-remains-in-place-for-fraser-valley-as-heavy-rain-continues/">local state of emergency in Chilliwack</a>. The Chilliwack River is approaching its expected crest, roughly 40 homes are under evacuation alert, and dikes are holding. <a href="https://weather.gc.ca/en/location/index.html?coords=49.158,-121.951">Environment Canada</a> has today at 10°C with a 40% chance of showers. Saturday similar at 9°C. Sunday climbs to 11°C before rain returns early next week. Trails saturated; BC River Forecast Centre has issued a Flood Watch.</p>
