@@ -16,12 +16,12 @@ Only fetch from and link to the following domains. Do not use sources outside th
 | Section | Domains |
 |---------|---------|
 | Weather | `weather.gc.ca` |
-| Tech | `code.claude.com`, `support.claude.com`, `anthropic.com`, `claude.com`, `x.com`, `openai.com`, `blog.google`, `macrumors.com`, `macstories.net`, `9to5mac.com`, `apple.com`, `arstechnica.com`, `theverge.com`, `stratechery.com` |
+| Tech | `code.claude.com`, `support.claude.com`, `anthropic.com`, `claude.com`, `x.com`, `openai.com`, `blog.google`, `macrumors.com`, `macstories.net`, `9to5mac.com`, `apple.com`, `arstechnica.com`, `theverge.com`, `stratechery.com`, `github.com` |
 | Health | `statnews.com`, `nature.com`, `examine.com` |
-| Business | `bankofcanada.ca`, `scotiabank.com`, `fred.stlouisfed.org`, `federalreserve.gov`, `bnnbloomberg.ca`, `ft.com` |
+| Business | `bankofcanada.ca`, `scotiabank.com`, `fred.stlouisfed.org`, `federalreserve.gov`, `bnnbloomberg.ca`, `ft.com`, `finance.yahoo.com` |
 | Psalm | `api.esv.org` |
 | SEP | `plato.stanford.edu` |
-| General news | `cbc.ca`, `reuters.com`, `bloomberg.com`, `axios.com` |
+| General news | `cbc.ca`, `reuters.com`, `bloomberg.com`, `axios.com`, `join1440.com` |
 | Local | `theprogress.com`, `fraservalleytoday.ca` |
 
 ---
