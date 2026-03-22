@@ -4,8 +4,54 @@
     <title>Daily Briefing</title>
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 21 Mar 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 12:30:00 +0000</lastBuildDate>
     <atom:link href="https://steelpersonalbriefing.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily Briefing — 2026-03-22</title>
+      <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-22.html</link>
+      <pubDate>Sun, 22 Mar 2026 12:30:00 +0000</pubDate>
+      <guid>https://steelpersonalbriefing.netlify.app/briefings/2026-03-22.html</guid>
+      <description><![CDATA[
+<h2>Weather</h2>
+<p>Cool and unsettled as the tail end of last week's atmospheric river wrings itself out. <a href="https://weather.gc.ca/en/location/index.html?coords=49.233,-121.767">Environment Canada</a> calls for a high of 6°C today with a 60% chance of scattered showers. Overnight low drops to –1°C — expect patchy frost by morning. Monday offers a brief reprieve with a high near 10°C and mostly dry skies, but Tuesday brings the next system: 28 mm of rain forecast with gusty winds up to 55 km/h. Layer up and plan outdoor work for Monday's window.</p>
+
+<h2>Tech</h2>
+
+<h3>Claude Platform / Models</h3>
+<p><a href="https://x.com/EricBuess/status/2032918665302294913">Anthropic has temporarily doubled usage limits</a> across Claude.ai, Cowork, and Claude Code through the end of Friday, March 27. The bonus applies all day on weekends and on weekdays outside peak hours (before 5 AM or after 11 AM PT) — <a href="https://x.com/dani_avila7/status/2032947184086176081">bonus usage does not count against your weekly limit</a>. Separately, there was a brief outage on Saturday with elevated error rates on Claude Opus and Sonnet 4.6 around 01:00 UTC, resolved within the hour.</p>
+
+<h3>Competitors</h3>
+<p>OpenAI announced that <a href="https://openai.com/blog">legacy Deep Research mode will be removed on Thursday, March 26</a> — the current deep research experience is unaffected and historical conversations remain accessible. The <a href="https://openai.com/index/openai-to-acquire-astral/">Astral acquisition</a> [previously noted] has not yet closed; community anxiety about uv's future under OpenAI continues to simmer.</p>
+
+<h3>Apple</h3>
+<p>Quiet weekend. <a href="https://www.macrumors.com/2026/03/21/apple-tv-turns-nineteen/">Apple TV turned 19 on Saturday</a>. <a href="https://9to5mac.com/2026/03/21/top-stories-airpods-max-2-ios-26-4-rc-and-more/">iOS 26.4 public release is expected this week</a>.</p>
+
+<h2>Business</h2>
+
+<h3>Markets</h3>
+<p>Weekend — no new trading data since Friday's close. <a href="https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-accelerate-losses-as-oil-swings-amid-iran-war-jitters-193849741.html">S&amp;P 500 finished at 6,506 (–1.5%), Dow 45,577 (–1.0%), Nasdaq 21,648 (–2.0%)</a>. Brent settled at $112.19, up 3.3% on Friday. The 10-year Treasury yield sits at 4.38%.</p>
+
+<h3>Canada Macro</h3>
+<p>Quiet day. Next Bank of Canada rate decision April 29. Money markets continue to price 75 bps of hikes by year-end, though economists warn that hiking into 6.7% unemployment and negative Q4 GDP would compound household pain. CAD steady around 72.87 cents US.</p>
+
+<h3>US Macro</h3>
+<p>No new data over the weekend. The week ahead brings existing home sales (Tuesday) and durable goods orders (Wednesday). The Fed's message from Wednesday's press conference is still being digested: hold at 3.50–3.75%, core PCE revised up to 2.7%, lone dissent from Miran favoring a cut.</p>
+
+<h2>Psalm of the Day — Psalm 3</h2>
+<p><em>A Psalm of David, when he fled from Absalom his son.</em></p>
+<p><em><sup>1</sup>O LORD, how many are my foes! Many are rising against me; <sup>2</sup>many are saying of my soul, "There is no salvation for him in God." Selah <sup>3</sup>But you, O LORD, are a shield about me, my glory, and the lifter of my head. <sup>4</sup>I cried aloud to the LORD, and he answered me from his holy hill. Selah <sup>5</sup>I lay down and slept; I woke again, for the LORD sustained me. <sup>6</sup>I will not be afraid of many thousands of people who have set themselves against me all around. <sup>7</sup>Arise, O LORD! Save me, O my God! For you strike all my enemies on the cheek; you break the teeth of the wicked. <sup>8</sup>Salvation belongs to the LORD; your blessing be on your people! Selah</em></p>
+<p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
+<h3>Exegesis</h3>
+<p>Psalm 3 is the first individual lament in the Psalter with a historical superscription linking it to David's flight from Absalom (2 Samuel 15–18). The psalm traces a movement from crisis through trust to serene confidence. The taunt in verse 2 — "there is no yešûʿâ for him in God" — is directly refuted by the closing verse: "Salvation belongs to the LORD," forming a theological inclusio. The verse 5 confession — "I lay down and slept; I woke again" — is sharper against the Absalom narrative: to sleep when thousands surround you is either foolishness or faith.</p>
+
+<h2>SEP — The Problem of Induction</h2>
+<p><a href="https://plato.stanford.edu/entries/induction-problem/">plato.stanford.edu/entries/induction-problem/</a></p>
+<p>The problem of induction asks what justifies inference from observed cases to unobserved ones. Hume showed that inductive justification is circular and no deductive argument bridges past to future. Popper accepted this and proposed falsificationism; Reichenbach offered a pragmatic vindication; Goodman deepened the problem with the "grue" paradox. Bayesian approaches formalize updating but leave the choice of priors contested. The problem has never been solved in a way that commands consensus.</p>
+
+<h2>Cognitive Bias — Confirmation Bias</h2>
+<p>Confirmation bias is your tendency to seek out, interpret, and remember information that confirms what you already believe — while discounting contradictory evidence. Peter Wason's 2-4-6 task showed subjects almost universally test only examples consistent with their hypothesis, never trying to falsify it. The corrective: actively seek the strongest version of the opposing case before concluding you are right.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Daily Briefing — 2026-03-21</title>
       <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-21.html</link>
