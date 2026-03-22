@@ -41,7 +41,8 @@
     { "date": "2026-03-21", "key": "boc-rate-hike-bets-75bp", "headline": "Money markets price 75 bps of BoC hikes by year-end" },
     { "date": "2026-03-22", "key": "anthropic-doubled-usage-limits-march27", "headline": "Anthropic doubles usage limits through March 27 on weekends and off-peak" },
     { "date": "2026-03-22", "key": "openai-legacy-deep-research-removal-march26", "headline": "OpenAI removing legacy Deep Research mode on March 26" },
-    { "date": "2026-03-22", "key": "claude-opus-sonnet-outage-march21", "headline": "Brief elevated error rates on Opus and Sonnet 4.6, resolved within hour" }
+    { "date": "2026-03-22", "key": "claude-opus-sonnet-outage-march21", "headline": "Brief elevated error rates on Opus and Sonnet 4.6, resolved within hour" },
+    { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" }
   ],
   "last_run_date": "2026-03-22"
 }
