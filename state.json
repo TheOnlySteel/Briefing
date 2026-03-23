@@ -47,7 +47,9 @@
     { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" },
     { "date": "2026-03-23", "key": "anthropic-pentagon-amicus-theologians", "headline": "Catholic theologians file amicus briefs supporting Anthropic ahead of hearing" },
     { "date": "2026-03-23", "key": "bmg-anthropic-copyright-lyrics", "headline": "BMG Rights Management sues Anthropic over copyrighted lyrics" },
-    { "date": "2026-03-23", "key": "sp500-futures-relief-rally-oil-drop", "headline": "S&P futures +1%, oil drops 5% in pre-market relief rally" },
+    { "date": "2026-03-23", "key": "trump-iran-5day-pause", "headline": "Trump suspends Iran power-plant strikes for 5 days, citing productive talks" },
+    { "date": "2026-03-23", "key": "gold-2026-low-below-4250", "headline": "Gold falls below $4,250, erasing all 2026 gains" },
+    { "date": "2026-03-23", "key": "sp500-futures-relief-rally-oil-drop", "headline": "S&P futures surge 1.2%, Brent plunges from $113 to $104, WTI -7%" },
     { "date": "2026-03-23", "key": "apple-wwdc-2026-announcement-expected", "headline": "WWDC 2026 announcement expected this week" },
     { "date": "2026-03-23", "key": "ios-26-4-public-release-expected", "headline": "iOS 26.4 public release expected midweek" }
   ],
