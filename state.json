@@ -51,7 +51,9 @@
     { "date": "2026-03-23", "key": "gold-2026-low-below-4250", "headline": "Gold falls below $4,250, erasing all 2026 gains" },
     { "date": "2026-03-23", "key": "sp500-futures-relief-rally-oil-drop", "headline": "S&P futures surge 1.2%, Brent plunges from $113 to $104, WTI -7%" },
     { "date": "2026-03-23", "key": "apple-wwdc-2026-announcement-expected", "headline": "WWDC 2026 announcement expected this week" },
-    { "date": "2026-03-23", "key": "ios-26-4-public-release-expected", "headline": "iOS 26.4 public release expected midweek" }
+    { "date": "2026-03-23", "key": "ios-26-4-public-release-expected", "headline": "iOS 26.4 public release expected midweek" },
+    { "date": "2026-03-23", "key": "openai-helion-fusion-deal", "headline": "OpenAI in advanced talks to buy electricity from Helion Energy fusion startup" },
+    { "date": "2026-03-23", "key": "apple-tv-homepod-mini-inventory-low", "headline": "Apple TV and HomePod mini inventory dwindling, refreshed models held for Siri" }
   ],
   "last_run_date": "2026-03-23"
 }
