@@ -1,19 +1,21 @@
 {
   "scripture": {
     "book": "Psalm",
-    "current_chapter": 4,
+    "current_chapter": 5,
     "total_chapters": 150,
     "cycle_complete": false
   },
   "sep_entries_used": [
     "https://plato.stanford.edu/entries/formal-epistemology/",
     "https://plato.stanford.edu/entries/scientific-underdetermination/",
-    "https://plato.stanford.edu/entries/induction-problem/"
+    "https://plato.stanford.edu/entries/induction-problem/",
+    "https://plato.stanford.edu/entries/other-minds/"
   ],
   "bias_entries_used": [
     "Anchoring",
     "Availability Heuristic",
-    "Confirmation Bias"
+    "Confirmation Bias",
+    "Dunning-Kruger Effect"
   ],
   "recent_stories": [
     { "date": "2026-03-20", "key": "fvrd-state-of-emergency-atmospheric-river", "headline": "FVRD declares state of emergency, 40 homes under evacuation alert" },
@@ -42,7 +44,12 @@
     { "date": "2026-03-22", "key": "anthropic-doubled-usage-limits-march27", "headline": "Anthropic doubles usage limits through March 27 on weekends and off-peak" },
     { "date": "2026-03-22", "key": "openai-legacy-deep-research-removal-march26", "headline": "OpenAI removing legacy Deep Research mode on March 26" },
     { "date": "2026-03-22", "key": "claude-opus-sonnet-outage-march21", "headline": "Brief elevated error rates on Opus and Sonnet 4.6, resolved within hour" },
-    { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" }
+    { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" },
+    { "date": "2026-03-23", "key": "anthropic-pentagon-amicus-theologians", "headline": "Catholic theologians file amicus briefs supporting Anthropic ahead of hearing" },
+    { "date": "2026-03-23", "key": "bmg-anthropic-copyright-lyrics", "headline": "BMG Rights Management sues Anthropic over copyrighted lyrics" },
+    { "date": "2026-03-23", "key": "sp500-futures-relief-rally-oil-drop", "headline": "S&P futures +1%, oil drops 5% in pre-market relief rally" },
+    { "date": "2026-03-23", "key": "apple-wwdc-2026-announcement-expected", "headline": "WWDC 2026 announcement expected this week" },
+    { "date": "2026-03-23", "key": "ios-26-4-public-release-expected", "headline": "iOS 26.4 public release expected midweek" }
   ],
-  "last_run_date": "2026-03-22"
+  "last_run_date": "2026-03-23"
 }
