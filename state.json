@@ -1,7 +1,7 @@
 {
   "scripture": {
     "book": "Psalm",
-    "current_chapter": 5,
+    "current_chapter": 6,
     "total_chapters": 150,
     "cycle_complete": false
   },
@@ -9,33 +9,18 @@
     "https://plato.stanford.edu/entries/formal-epistemology/",
     "https://plato.stanford.edu/entries/scientific-underdetermination/",
     "https://plato.stanford.edu/entries/induction-problem/",
-    "https://plato.stanford.edu/entries/other-minds/"
+    "https://plato.stanford.edu/entries/other-minds/",
+    "https://plato.stanford.edu/entries/freewill/"
   ],
   "bias_entries_used": [
     "Anchoring",
     "Availability Heuristic",
     "Confirmation Bias",
-    "Dunning-Kruger Effect"
+    "Dunning-Kruger Effect",
+    "Sunk Cost Fallacy"
   ],
   "recent_stories": [
-    { "date": "2026-03-20", "key": "fvrd-state-of-emergency-atmospheric-river", "headline": "FVRD declares state of emergency, 40 homes under evacuation alert" },
-    { "date": "2026-03-20", "key": "coquitlam-mudslide-airlift", "headline": "Mudslide in Coquitlam forces couple airlift" },
-    { "date": "2026-03-20", "key": "claude-code-v2.1.81", "headline": "Claude Code v2.1.81: --bare flag, --channels permission relay" },
-    { "date": "2026-03-20", "key": "claude-code-v2.1.80", "headline": "Claude Code v2.1.80: rate_limits statusline, settings plugins, effort frontmatter" },
-    { "date": "2026-03-20", "key": "anthropic-ai-attitudes-survey-81k", "headline": "Anthropic survey of 81K people on AI attitudes across 159 countries" },
     { "date": "2026-03-20", "key": "doj-anthropic-pentagon-injunction", "headline": "DOJ urges court to reject Anthropic preliminary injunction, hearing March 24" },
-    { "date": "2026-03-20", "key": "gpt-5.4-mini-chatgpt-rollout", "headline": "GPT-5.4 Mini rolled out to ChatGPT Free and Go users" },
-    { "date": "2026-03-20", "key": "openai-ends-instant-checkout", "headline": "OpenAI ending Instant Checkout in ChatGPT, pivoting to retailer apps" },
-    { "date": "2026-03-20", "key": "gemini-workspace-update", "headline": "Gemini Workspace update: contextual drafting, AI spreadsheets, deck generation" },
-    { "date": "2026-03-20", "key": "apple-mac-launch-record-first-time-buyers", "headline": "Tim Cook: best Mac launch week ever for first-time customers" },
-    { "date": "2026-03-20", "key": "macbook-neo-backorder-demand", "headline": "MacBook Neo demand outstripping supply, April delivery estimates" },
-    { "date": "2026-03-20", "key": "hn-ai-coding-is-gambling", "headline": "HN top: 'AI coding is gambling' (420 pts)" },
-    { "date": "2026-03-20", "key": "cve-2026-3888-snap-root-escalation", "headline": "CVE-2026-3888: Snap privilege escalation to root" },
-    { "date": "2026-03-20", "key": "google-sashiko-kernel-code-review", "headline": "Google engineers launch Sashiko for agentic AI kernel code review" },
-    { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline-brent-120", "headline": "S&P 500 fourth weekly decline, Brent topped $120" },
-    { "date": "2026-03-20", "key": "planet-labs-q4-breakeven-surge", "headline": "Planet Labs surged 26% on breakeven Q4 and 41% revenue growth" },
-    { "date": "2026-03-20", "key": "boc-hold-2.25-march", "headline": "Bank of Canada holds at 2.25%, warns Iran war will boost inflation" },
-    { "date": "2026-03-20", "key": "fed-hold-3.50-3.75-march", "headline": "Fed holds 3.50-3.75%, 92K jobs cut in Feb, PCE raised to 2.7%" },
     { "date": "2026-03-21", "key": "openai-acquires-astral", "headline": "OpenAI acquiring Astral (uv, Ruff, ty) for Codex integration" },
     { "date": "2026-03-21", "key": "airpods-max-2-announced", "headline": "AirPods Max 2 with H2 chip, pre-orders March 25" },
     { "date": "2026-03-21", "key": "ios-26-4-rc-features", "headline": "iOS 26.4 RC: Apple Music Concerts, Playlist Playground, 8 new emoji" },
@@ -43,7 +28,6 @@
     { "date": "2026-03-21", "key": "boc-rate-hike-bets-75bp", "headline": "Money markets price 75 bps of BoC hikes by year-end" },
     { "date": "2026-03-22", "key": "anthropic-doubled-usage-limits-march27", "headline": "Anthropic doubles usage limits through March 27 on weekends and off-peak" },
     { "date": "2026-03-22", "key": "openai-legacy-deep-research-removal-march26", "headline": "OpenAI removing legacy Deep Research mode on March 26" },
-    { "date": "2026-03-22", "key": "claude-opus-sonnet-outage-march21", "headline": "Brief elevated error rates on Opus and Sonnet 4.6, resolved within hour" },
     { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" },
     { "date": "2026-03-23", "key": "anthropic-pentagon-amicus-theologians", "headline": "Catholic theologians file amicus briefs supporting Anthropic ahead of hearing" },
     { "date": "2026-03-23", "key": "bmg-anthropic-copyright-lyrics", "headline": "BMG Rights Management sues Anthropic over copyrighted lyrics" },
@@ -53,7 +37,14 @@
     { "date": "2026-03-23", "key": "apple-wwdc-2026-announcement-expected", "headline": "WWDC 2026 announcement expected this week" },
     { "date": "2026-03-23", "key": "ios-26-4-public-release-expected", "headline": "iOS 26.4 public release expected midweek" },
     { "date": "2026-03-23", "key": "openai-helion-fusion-deal", "headline": "OpenAI in advanced talks to buy electricity from Helion Energy fusion startup" },
-    { "date": "2026-03-23", "key": "apple-tv-homepod-mini-inventory-low", "headline": "Apple TV and HomePod mini inventory dwindling, refreshed models held for Siri" }
+    { "date": "2026-03-23", "key": "apple-tv-homepod-mini-inventory-low", "headline": "Apple TV and HomePod mini inventory dwindling, refreshed models held for Siri" },
+    { "date": "2026-03-24", "key": "anthropic-pentagon-hearing-march24", "headline": "Anthropic v. Pentagon preliminary injunction hearing held" },
+    { "date": "2026-03-24", "key": "anthropic-claude-code-webinar-advanced-patterns", "headline": "Anthropic webinar: Claude Code Advanced Patterns (subagents, MCP, CI)" },
+    { "date": "2026-03-24", "key": "wwdc-2026-official-june-8-12", "headline": "Apple officially announces WWDC 2026 for June 8-12" },
+    { "date": "2026-03-24", "key": "iphone-air-outperforms-plus-6.8pct", "headline": "iPhone Air captures 6.8% of iPhone 17 samples vs Plus 2.9%" },
+    { "date": "2026-03-24", "key": "gemini-google-marketing-platform-newfront", "headline": "Google unveils Gemini advantage in Marketing Platform at NewFront" },
+    { "date": "2026-03-24", "key": "sp500-6581-iran-rally-brent-99", "headline": "S&P 500 rises 74 to 6,581, Brent falls 10.9% to $99.94 on Iran talks" },
+    { "date": "2026-03-24", "key": "goldman-recession-probability-30pct", "headline": "Goldman Sachs raises 12-month recession probability to 30%" }
   ],
-  "last_run_date": "2026-03-23"
+  "last_run_date": "2026-03-24"
 }
