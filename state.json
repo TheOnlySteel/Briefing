@@ -44,7 +44,9 @@
     { "date": "2026-03-24", "key": "iphone-air-outperforms-plus-6.8pct", "headline": "iPhone Air captures 6.8% of iPhone 17 samples vs Plus 2.9%" },
     { "date": "2026-03-24", "key": "gemini-google-marketing-platform-newfront", "headline": "Google unveils Gemini advantage in Marketing Platform at NewFront" },
     { "date": "2026-03-24", "key": "sp500-6581-iran-rally-brent-99", "headline": "S&P 500 rises 74 to 6,581, Brent falls 10.9% to $99.94 on Iran talks" },
-    { "date": "2026-03-24", "key": "goldman-recession-probability-30pct", "headline": "Goldman Sachs raises 12-month recession probability to 30%" }
+    { "date": "2026-03-24", "key": "goldman-recession-probability-30pct", "headline": "Goldman Sachs raises 12-month recession probability to 30%" },
+    { "date": "2026-03-24", "key": "boc-governing-council-mendes-kozicki-departing", "headline": "BoC Deputy Governors Mendes and Kozicki both departing, two vacancies" },
+    { "date": "2026-03-24", "key": "chilliwack-evacuation-alerts-rescinded", "headline": "Chilliwack River Valley evacuation alerts rescinded as river levels drop" }
   ],
   "last_run_date": "2026-03-24"
 }
