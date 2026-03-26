@@ -4,8 +4,53 @@
     <title>Daily Briefing</title>
     <description>A daily briefing on weather, tech, health, business, theology, philosophy, and clear thinking.</description>
     <language>en-ca</language>
-    <lastBuildDate>Sun, 22 Mar 2026 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 12:30:00 +0000</lastBuildDate>
     <atom:link href="https://steelpersonalbriefing.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Daily Briefing — 2026-03-26</title>
+      <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-26.html</link>
+      <pubDate>Thu, 26 Mar 2026 12:30:00 +0000</pubDate>
+      <guid>https://steelpersonalbriefing.netlify.app/briefings/2026-03-26.html</guid>
+      <description><![CDATA[
+<h2>Weather</h2>
+<p>A cool, showery Thursday in the valley. <a href="https://weather.gc.ca/en/location/index.html?coords=49.233,-121.767">Environment Canada</a> calls for a high of 10°C with a 30% chance of showers and a hard overnight drop to –1°C — genuine frost risk, so cover anything tender. The Coquihalla is getting hammered: a snowfall warning has 25–35 cm piling up between Hope and Merritt, easing by midday. Friday warms to 12°C with a mix of sun and cloud; Saturday 13°C but overcast; Sunday pulls back to 11°C. Monday looks like 14°C with a 60% chance of showers returning. Trails are drying slowly from last week's atmospheric river — expect mud, not flow.</p>
+
+<h2>Tech</h2>
+
+<h3>Claude Code</h3>
+<p>Anthropic published a detailed <a href="https://www.anthropic.com/engineering/claude-code-auto-mode">engineering blog post on Claude Code's new auto mode</a> — a middle ground between clicking "approve" on every permission prompt and the nuclear <code>--dangerously-skip-permissions</code> flag. The motivation: <a href="https://x.com/AnthropicAI/status/2036944806317088921">users approve 93% of prompts</a>, breeding approval fatigue. Auto mode uses two classifier layers: a server-side prompt-injection probe on tool outputs, and a Sonnet 4.6 transcript classifier that evaluates each action before execution. The classifier is deliberately reasoning-blind — it sees only user messages and tool calls, not Claude's internal chain-of-thought. Enable it with <code>claude --enable-auto-mode</code> and cycle with Shift+Tab; available now as a research preview on Team plans, with Enterprise and API rolling out shortly.</p>
+
+<h3>Competitors</h3>
+<p>OpenAI's <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">legacy Deep Research mode was removed today</a> as previously announced — the current deep research experience is unaffected and historical conversations remain accessible. Separately, OpenAI published guidance on <a href="https://openai.com/news/">helping developers build safer AI experiences for teens</a>, and ChatGPT Business now supports <a href="https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes">write actions for Google and Microsoft apps</a> — drafting emails in Outlook, creating Docs and Sheets, and scheduling via calendar. Write actions are disabled by default until workspace admins opt in.</p>
+
+<h3>Apple</h3>
+<p><a href="https://9to5mac.com/2026/03/25/ios-26-4-has-fixes-for-35-security-issues-on-iphone-details-here/">iOS 26.4 shipped</a> with fixes for 36 security vulnerabilities on iPhone, plus CarPlay's new Ambient Music widget and voice-based chatbot app support. AirPods Max 2 pre-orders opened yesterday [<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/">previously announced</a>] in five colours with the H2 chip delivering 1.5× better ANC, lossless USB-C audio, and Live Translation — same $549 price point, shipping early April.</p>
+
+<h2>Business</h2>
+
+<h3>Markets</h3>
+<p><a href="https://finance.yahoo.com/quote/%5EGSPC/">S&amp;P 500 closed at 6,592 (+0.5%)</a>, snapping a losing streak. TSX rallied 1.4% to 32,383. The big story is oil: <a href="https://finance.yahoo.com/markets/commodities/articles/current-price-oil-march-26-125626774.html">Brent crashed 5.9% to $98.28</a> and WTI fell 5.1% to $87.68 on <a href="https://www.bnnbloomberg.ca/markets/2026/03/25/stocks-rise-and-oil-prices-ease-as-wall-street-keeps-yo-yoing-because-of-the-war-with-iran/">rising ceasefire expectations</a> — the sharpest single-day drop since the Iran war began. VIX remains elevated at 27.4.</p>
+
+<h3>Canada Macro</h3>
+<p>Senior Deputy Governor Carolyn Rogers delivered a <a href="https://www.bankofcanada.ca/2026/03/an-anchor-of-stability-in-uncertain-times/">notable speech today</a> warning that the next five years could be as economically tumultuous as the last five. She identified three structural forces — <a href="https://www.bnnbloomberg.ca/business/2026/03/26/bank-of-canada-says-it-will-have-a-tough-job-tackling-structural-changes/">US trade protectionism, reduced immigration, and AI adoption</a> — as permanent shifts the BoC must navigate. The USMCA renewal this year adds further uncertainty. CAD trading at 72.2 cents US.</p>
+
+<h3>US Macro</h3>
+<p>The oil crash is doing the Fed's work for it — if ceasefire prospects hold, the energy-driven inflation scare that rewrote rate expectations three weeks ago could partially unwind. Equities rallied on the prospect, though the VIX at 27 suggests the market is far from convinced the war is over. Durable goods data due today.</p>
+
+<h2>Psalm of the Day — Psalm 4</h2>
+<p><em><sup>1</sup> Answer me when I call, O God of my righteousness! You have given me relief when I was in distress. Be gracious to me and hear my prayer! <sup>2</sup> O men, how long shall my honor be turned into shame? How long will you love vain words and seek after lies? Selah <sup>3</sup> But know that the LORD has set apart the godly for himself; the LORD hears when I call to him. <sup>4</sup> Be angry, and do not sin; ponder in your own hearts on your beds, and be silent. Selah <sup>5</sup> Offer right sacrifices, and put your trust in the LORD. <sup>6</sup> There are many who say, "Who will show us some good? Lift up the light of your face upon us, O LORD!" <sup>7</sup> You have put more joy in my heart than they have when their grain and wine abound. <sup>8</sup> In peace I will both lie down and sleep; for you alone, O LORD, make me dwell in safety.</em></p>
+<p><small>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.</small></p>
+<h3>Exegesis</h3>
+<p>Psalm 4 is an evening prayer of trust — a companion piece to Psalm 3's morning confidence. The opening appeal to "the God of my righteousness" invokes covenantal standing. Verse 4's command — "Be angry, and do not sin" — is notoriously difficult: the imperative can mean "tremble" or "be agitated" as much as "be angry." The chiastic structure pivots on verse 5's call to trust. The theological climax is verse 7: joy that exceeds material abundance — grain and wine being the Deuteronomic markers of covenant blessing.</p>
+
+<h2>SEP — Personal Identity</h2>
+<p><a href="https://plato.stanford.edu/entries/personal-identity/">plato.stanford.edu/entries/personal-identity/</a></p>
+<p>The problem of personal identity asks what makes a person at one time the same person at a later time. The dominant positions divide into psychological continuity theories and biological/animalist theories. Locke's prince-cobbler thought experiment drives psychological accounts, but faces the reduplication problem. Parfit argued that identity is not what matters — psychological continuity and connectedness are. Animalists counter that we were once fetuses with no psychological life. The debate has practical stakes: advance directives, criminal responsibility, and digital uploads.</p>
+
+<h2>Cognitive Bias — Sunk Cost Fallacy</h2>
+<p>The sunk cost fallacy is your tendency to continue investing in something because of what you've already spent, rather than what you stand to gain going forward. You sit through the last hour of a terrible film because you paid $15 for the ticket, as if leaving would un-spend the money. Munger called it "the shoe that doesn't fit" — the rational move is always to ask what the next dollar buys, not what the last dollar bought.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Daily Briefing — 2026-03-22</title>
       <link>https://steelpersonalbriefing.netlify.app/briefings/2026-03-22.html</link>
