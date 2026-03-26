@@ -1,37 +1,27 @@
 {
   "scripture": {
     "book": "Psalm",
-    "current_chapter": 4,
+    "current_chapter": 5,
     "total_chapters": 150,
     "cycle_complete": false
   },
   "sep_entries_used": [
     "https://plato.stanford.edu/entries/formal-epistemology/",
     "https://plato.stanford.edu/entries/scientific-underdetermination/",
-    "https://plato.stanford.edu/entries/induction-problem/"
+    "https://plato.stanford.edu/entries/induction-problem/",
+    "https://plato.stanford.edu/entries/personal-identity/"
   ],
   "bias_entries_used": [
     "Anchoring",
     "Availability Heuristic",
-    "Confirmation Bias"
+    "Confirmation Bias",
+    "Sunk Cost Fallacy"
   ],
   "recent_stories": [
-    { "date": "2026-03-20", "key": "fvrd-state-of-emergency-atmospheric-river", "headline": "FVRD declares state of emergency, 40 homes under evacuation alert" },
-    { "date": "2026-03-20", "key": "coquitlam-mudslide-airlift", "headline": "Mudslide in Coquitlam forces couple airlift" },
     { "date": "2026-03-20", "key": "claude-code-v2.1.81", "headline": "Claude Code v2.1.81: --bare flag, --channels permission relay" },
     { "date": "2026-03-20", "key": "claude-code-v2.1.80", "headline": "Claude Code v2.1.80: rate_limits statusline, settings plugins, effort frontmatter" },
-    { "date": "2026-03-20", "key": "anthropic-ai-attitudes-survey-81k", "headline": "Anthropic survey of 81K people on AI attitudes across 159 countries" },
-    { "date": "2026-03-20", "key": "doj-anthropic-pentagon-injunction", "headline": "DOJ urges court to reject Anthropic preliminary injunction, hearing March 24" },
     { "date": "2026-03-20", "key": "gpt-5.4-mini-chatgpt-rollout", "headline": "GPT-5.4 Mini rolled out to ChatGPT Free and Go users" },
-    { "date": "2026-03-20", "key": "openai-ends-instant-checkout", "headline": "OpenAI ending Instant Checkout in ChatGPT, pivoting to retailer apps" },
-    { "date": "2026-03-20", "key": "gemini-workspace-update", "headline": "Gemini Workspace update: contextual drafting, AI spreadsheets, deck generation" },
-    { "date": "2026-03-20", "key": "apple-mac-launch-record-first-time-buyers", "headline": "Tim Cook: best Mac launch week ever for first-time customers" },
-    { "date": "2026-03-20", "key": "macbook-neo-backorder-demand", "headline": "MacBook Neo demand outstripping supply, April delivery estimates" },
-    { "date": "2026-03-20", "key": "hn-ai-coding-is-gambling", "headline": "HN top: 'AI coding is gambling' (420 pts)" },
-    { "date": "2026-03-20", "key": "cve-2026-3888-snap-root-escalation", "headline": "CVE-2026-3888: Snap privilege escalation to root" },
-    { "date": "2026-03-20", "key": "google-sashiko-kernel-code-review", "headline": "Google engineers launch Sashiko for agentic AI kernel code review" },
     { "date": "2026-03-20", "key": "sp500-fourth-weekly-decline-brent-120", "headline": "S&P 500 fourth weekly decline, Brent topped $120" },
-    { "date": "2026-03-20", "key": "planet-labs-q4-breakeven-surge", "headline": "Planet Labs surged 26% on breakeven Q4 and 41% revenue growth" },
     { "date": "2026-03-20", "key": "boc-hold-2.25-march", "headline": "Bank of Canada holds at 2.25%, warns Iran war will boost inflation" },
     { "date": "2026-03-20", "key": "fed-hold-3.50-3.75-march", "headline": "Fed holds 3.50-3.75%, 92K jobs cut in Feb, PCE raised to 2.7%" },
     { "date": "2026-03-21", "key": "openai-acquires-astral", "headline": "OpenAI acquiring Astral (uv, Ruff, ty) for Codex integration" },
@@ -41,8 +31,16 @@
     { "date": "2026-03-21", "key": "boc-rate-hike-bets-75bp", "headline": "Money markets price 75 bps of BoC hikes by year-end" },
     { "date": "2026-03-22", "key": "anthropic-doubled-usage-limits-march27", "headline": "Anthropic doubles usage limits through March 27 on weekends and off-peak" },
     { "date": "2026-03-22", "key": "openai-legacy-deep-research-removal-march26", "headline": "OpenAI removing legacy Deep Research mode on March 26" },
-    { "date": "2026-03-22", "key": "claude-opus-sonnet-outage-march21", "headline": "Brief elevated error rates on Opus and Sonnet 4.6, resolved within hour" },
-    { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" }
+    { "date": "2026-03-22", "key": "trivy-canisterworm-supply-chain", "headline": "Trivy supply chain attack escalates to CanisterWorm npm worm across 47 packages" },
+    { "date": "2026-03-26", "key": "claude-code-auto-mode", "headline": "Claude Code auto mode: classifier-based permission delegation, research preview" },
+    { "date": "2026-03-26", "key": "ios-26-4-release-security-fixes", "headline": "iOS 26.4 released with 36 security fixes and CarPlay features" },
+    { "date": "2026-03-26", "key": "airpods-max-2-preorders-open", "headline": "AirPods Max 2 pre-orders opened, shipping early April" },
+    { "date": "2026-03-26", "key": "openai-deep-research-legacy-removed", "headline": "OpenAI legacy Deep Research mode removed as scheduled" },
+    { "date": "2026-03-26", "key": "openai-teen-safety-developers", "headline": "OpenAI guidance on safer AI experiences for teens" },
+    { "date": "2026-03-26", "key": "chatgpt-business-write-actions", "headline": "ChatGPT Business adds write actions for Google and Microsoft apps" },
+    { "date": "2026-03-26", "key": "brent-crash-ceasefire-hopes", "headline": "Brent crude crashes 5.9% to $98.28 on ceasefire expectations" },
+    { "date": "2026-03-26", "key": "boc-rogers-structural-changes-speech", "headline": "BoC SDG Rogers warns of five years of structural economic turbulence" },
+    { "date": "2026-03-26", "key": "sp500-6592-rally", "headline": "S&P 500 rallies to 6,592, TSX up 1.4%" }
   ],
-  "last_run_date": "2026-03-22"
+  "last_run_date": "2026-03-26"
 }
